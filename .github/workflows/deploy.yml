@@ -24,7 +24,7 @@ jobs:
           pip install pillow tqdm
 
       - name: Generate WebP images & manifest
-        run: python img2web.py
+        run: python img2webp.py
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
