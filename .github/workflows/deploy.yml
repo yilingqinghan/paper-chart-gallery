@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write   # grant write access to repository files
+  pages:   write   # enable GitHub Pages deployment
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -12,6 +16,8 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true   # keep GITHUB_TOKEN in git config
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -31,4 +37,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
-          publish_branch: gh-pages
+          publish_branch: gh-pages   # push the built site here
