@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Paper Figures Gallery</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .thumb {
+            @apply cursor-pointer rounded transition hover:scale-105;
+        }
+        .pagination button {
+            @apply px-2 py-1 border rounded mx-1;
+        }
+        .pagination button[disabled] {
+            @apply opacity-40 cursor-not-allowed;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+<div id="app" class="max-w-6xl mx-auto p-4">
+    <!-- Title -->
+    <h1 class="text-3xl font-bold mb-4">📚 Paper Figures Gallery</h1>
+
+    <!-- Category Filter -->
+    <div class="flex items-center mb-4">
+        <label class="mr-2 font-medium">Category:</label>
+        <select v-model="filter" class="border rounded px-2 py-1">
+            <option value="">All</option>
+            <option v-for="c in categories" :key="c" :value="c">{{ c }}</option>
+        </select>
+    </div>
+
+    <!-- Statistics Chart -->
+    <canvas id="statChart" height="120" class="mb-6"></canvas>
+
+    <!-- Thumbnails Grid -->
+    <div class="grid sm:grid-cols-3 md:grid-cols-4 gap-4">
+        <img
+                v-for="img in pagedImages"
+                :key="img.file"
+                :src="img.file"
+                class="thumb shadow"
+                :alt="img.file"
+                :title="img.file.split('/').pop()"
+        />
+    </div>
+
+    <!-- Pagination Controls -->
+    <div class="pagination flex justify-center mt-6">
+        <button @click="page--" :disabled="page === 1">Prev</button>
+        <span class="px-3 py-1">Page {{ page }} / {{ totalPages }}</span>
+        <button @click="page++" :disabled="page === totalPages">Next</button>
+    </div>
+</div>
+
+<script>
+    const PER_PAGE = 24;
+
+    Vue.createApp({
+        data() {
+            return {
+                images: [],
+                categories: [],
+                filter: '',
+                page: 1,
+                chart: null
+            };
+        },
+        computed: {
+            filtered() {
+                return this.filter
+                    ? this.images.filter(i => i.category === this.filter)
+                    : this.images;
+            },
+            totalPages() {
+                return Math.max(1, Math.ceil(this.filtered.length / PER_PAGE));
+            },
+            pagedImages() {
+                const start = (this.page - 1) * PER_PAGE;
+                return this.filtered.slice(start, start + PER_PAGE);
+            }
+        },
+        watch: {
+            filter() {
+                this.page = 1;
+                this.renderChart();
+            },
+            images() {
+                this.renderChart();
+            }
+        },
+        methods: {
+            renderChart() {
+                const counts = {};
+                this.filtered.forEach(i => {
+                    counts[i.category] = (counts[i.category] || 0) + 1;
+                });
+                const data = {
+                    labels: Object.keys(counts),
+                    datasets: [{
+                        label: 'Count',
+                        data: Object.values(counts),
+                        backgroundColor: '#3b82f6'
+                    }]
+                };
+                if (this.chart) this.chart.destroy();
+                this.chart = new Chart(
+                    document.getElementById('statChart'),
+                    { type: 'bar', data, options: { plugins: { legend: { display: false } } } }
+                );
+            }
+        },
+        mounted() {
+            axios.get('images.json').then(res => {
+                this.images = res.data;
+                this.categories = [...new Set(this.images.map(i => i.category))].sort();
+            });
+        }
+    }).mount('#app');
+</script>
+</body>
+</html>
