@@ -3,6 +3,8 @@
 An interactive, **static** gallery of curated figures from academic papers, designed to help you quickly find and explore high-quality visualizations.
 
 ---
+website: https://yilingqinghan.github.io/paper-chart-gallery/
+
 
 ## 📁 Image Location
 All figures are stored in root-level folders named with a numeric prefix and an English category, for example:
