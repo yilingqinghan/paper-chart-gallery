@@ -241,6 +241,12 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICS2024-1.webp",
+    "width": 2648,
+    "height": 1612
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ASE2024-24.webp",
     "width": 2144,
     "height": 906
@@ -262,6 +268,12 @@
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2025-A Multi-level Compiler Backend for Accelerated  Micro-kernels Targeting RISC-V ISA Extensions7.webp",
     "width": 1056,
     "height": 1302
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICS2024-11.webp",
+    "width": 1290,
+    "height": 1756
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
@@ -601,6 +613,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2024-3.webp",
+    "width": 1244,
+    "height": 946
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-GoFree: Reducing Garbage Collection via Compiler-Inserted Freeing3.webp",
     "width": 2440,
     "height": 574
@@ -643,6 +661,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2024-13.webp",
+    "width": 1250,
+    "height": 1044
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-VEGA: Automatically Generating Compiler Backends using a Pre-trained Transformer Model2.webp",
     "width": 1640,
     "height": 922
@@ -661,6 +685,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2024-4.webp",
+    "width": 1266,
+    "height": 800
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2024-41.webp",
     "width": 1676,
     "height": 1448
@@ -670,6 +700,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-VEGA: Automatically Generating Compiler Backends using a Pre-trained Transformer Model3.webp",
     "width": 3404,
     "height": 1800
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2024-12.webp",
+    "width": 1308,
+    "height": 1122
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -919,6 +955,12 @@
   },
   {
     "category": "08-Heatmap-\u70ed\u529b\u56fe",
+    "file": "08-Heatmap-\u70ed\u529b\u56fe/ICS2024-7.webp",
+    "width": 1338,
+    "height": 754
+  },
+  {
+    "category": "08-Heatmap-\u70ed\u529b\u56fe",
     "file": "08-Heatmap-\u70ed\u529b\u56fe/CGO2024-42.webp",
     "width": 1678,
     "height": 1678
@@ -982,6 +1024,12 @@
     "file": "09-ScatterPlot-\u6563\u70b9\u56fe/ASE2024-33.webp",
     "width": 1138,
     "height": 874
+  },
+  {
+    "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
+    "file": "09-ScatterPlot-\u6563\u70b9\u56fe/ICS2024-14.webp",
+    "width": 1342,
+    "height": 988
   },
   {
     "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
@@ -1225,6 +1273,12 @@
   },
   {
     "category": "14-LineChart-\u6298\u7ebf\u56fe",
+    "file": "14-LineChart-\u6298\u7ebf\u56fe/ICS2024-8.webp",
+    "width": 2612,
+    "height": 1196
+  },
+  {
+    "category": "14-LineChart-\u6298\u7ebf\u56fe",
     "file": "14-LineChart-\u6298\u7ebf\u56fe/ASE2023-5.webp",
     "width": 2004,
     "height": 554
@@ -1252,6 +1306,12 @@
     "file": "14-LineChart-\u6298\u7ebf\u56fe/ASE2024-34.webp",
     "width": 2268,
     "height": 964
+  },
+  {
+    "category": "14-LineChart-\u6298\u7ebf\u56fe",
+    "file": "14-LineChart-\u6298\u7ebf\u56fe/ICS2024-5.webp",
+    "width": 1282,
+    "height": 520
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
@@ -1282,6 +1342,18 @@
     "file": "15-BarChart-\u67f1\u72b6\u56fe/ASE2023-2.webp",
     "width": 964,
     "height": 634
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/ICS2024-2.webp",
+    "width": 2560,
+    "height": 816
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/ICS2024-10.webp",
+    "width": 2644,
+    "height": 780
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
@@ -1405,6 +1477,12 @@
   },
   {
     "category": "18-Swimlane-\u6cf3\u9053\u56fe",
+    "file": "18-Swimlane-\u6cf3\u9053\u56fe/ICS2024-9.webp",
+    "width": 2604,
+    "height": 976
+  },
+  {
+    "category": "18-Swimlane-\u6cf3\u9053\u56fe",
     "file": "18-Swimlane-\u6cf3\u9053\u56fe/CGO2023-41.webp",
     "width": 1652,
     "height": 1392
@@ -1438,6 +1516,18 @@
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/CGO2025-Parallaft: Runtime-Based CPU Fault Tolerance via Heterogeneous Parallelism5.webp",
     "width": 1176,
     "height": 938
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/ICS2024-15.webp",
+    "width": 1278,
+    "height": 714
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/ICS2024-6.webp",
+    "width": 2064,
+    "height": 1852
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
