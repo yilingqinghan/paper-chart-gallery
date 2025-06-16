@@ -25,6 +25,12 @@
   },
   {
     "category": "01-Table-\u8868\u683c",
+    "file": "01-Table-\u8868\u683c/ICS2023-16.webp",
+    "width": 2338,
+    "height": 1580
+  },
+  {
+    "category": "01-Table-\u8868\u683c",
     "file": "01-Table-\u8868\u683c/CGO2025-GoFree: Reducing Garbage Collection via Compiler-Inserted Freeing8.webp",
     "width": 1176,
     "height": 1346
@@ -211,6 +217,18 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2025-Tensorize: Fast Synthesis of Tensor Programs from Legacy Code using Symbolic Tracing, Sketching and Solving2.webp",
+    "width": 2716,
+    "height": 1082
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICS2023-11.webp",
+    "width": 1136,
+    "height": 2008
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2025-Automatic Synthesis of Specialized Hash Functions2.webp",
     "width": 1236,
     "height": 1516
@@ -319,9 +337,21 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICS2023-6.webp",
+    "width": 1138,
+    "height": 896
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2024-35.webp",
     "width": 1702,
     "height": 1828
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICS2023-1.webp",
+    "width": 1150,
+    "height": 650
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
@@ -367,6 +397,12 @@
   },
   {
     "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
+    "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/ICS2023-4.webp",
+    "width": 1198,
+    "height": 1446
+  },
+  {
+    "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
     "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/CGO2024-20.webp",
     "width": 1738,
     "height": 1350
@@ -394,12 +430,6 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Qubit Movement-Optimized Program Generation on Zoned Neutral Atom Processors3.webp",
     "width": 1212,
     "height": 1346
-  },
-  {
-    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
-    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-CUrator: An Efficient LLM Execution Engine with Optimized Integration of CUDA Libraries7.webp",
-    "width": 1034,
-    "height": 710
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -436,12 +466,6 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-CUrator: An Efficient LLM Execution Engine with Optimized Integration of CUDA Libraries5.webp",
     "width": 2186,
     "height": 1068
-  },
-  {
-    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
-    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2023-30.webp",
-    "width": 1610,
-    "height": 1234
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -511,6 +535,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2023-9.webp",
+    "width": 1112,
+    "height": 922
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures2.webp",
     "width": 1170,
     "height": 684
@@ -559,15 +589,9 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
-    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Tensorize: Fast Synthesis of Tensor Programs from Legacy Code using Symbolic Tracing, Sketching and Solving2.webp",
-    "width": 2716,
-    "height": 1082
-  },
-  {
-    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
-    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Towards Efficient Compiler Auto-tuning: Leveraging Synergistic Search Spaces3.webp",
-    "width": 2394,
-    "height": 1088
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2023-15.webp",
+    "width": 1124,
+    "height": 804
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -577,15 +601,21 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
-    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Janitizer: Rethinking Binary Tools for Practical and Comprehensive Security4.webp",
-    "width": 2460,
-    "height": 1948
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2023-10.webp",
+    "width": 1128,
+    "height": 510
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2023-42.webp",
     "width": 3270,
     "height": 838
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2023-13.webp",
+    "width": 2350,
+    "height": 678
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -610,12 +640,6 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-VEGA: Automatically Generating Compiler Backends using a Pre-trained Transformer Model4.webp",
     "width": 3300,
     "height": 1266
-  },
-  {
-    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
-    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2024-3.webp",
-    "width": 1244,
-    "height": 946
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -727,12 +751,6 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
-    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Vectron: A Dynamic Programming Auto-vectorization Framework1.webp",
-    "width": 2442,
-    "height": 1640
-  },
-  {
-    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-IntelliGen: Instruction-Level Auto-tuning for Tensor  Program with Monotonic Memory Optimization6.webp",
     "width": 986,
     "height": 850
@@ -754,12 +772,6 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2023-38.webp",
     "width": 2774,
     "height": 1076
-  },
-  {
-    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
-    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Vectron: A Dynamic Programming Auto-vectorization Framework2.webp",
-    "width": 1062,
-    "height": 1454
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -793,12 +805,6 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
-    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2024-6.webp",
-    "width": 1700,
-    "height": 1032
-  },
-  {
-    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Enhancing Deployment-Time Predictive Model Robustness for Code Analysis and Optimization3.webp",
     "width": 1322,
     "height": 788
@@ -820,12 +826,6 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures8.webp",
     "width": 1134,
     "height": 1364
-  },
-  {
-    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
-    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2024-5.webp",
-    "width": 1282,
-    "height": 964
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -1045,6 +1045,12 @@
   },
   {
     "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
+    "file": "09-ScatterPlot-\u6563\u70b9\u56fe/ICS2023-2.webp",
+    "width": 1182,
+    "height": 882
+  },
+  {
+    "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
     "file": "09-ScatterPlot-\u6563\u70b9\u56fe/ASE2024-41.webp",
     "width": 1110,
     "height": 1268
@@ -1150,6 +1156,12 @@
     "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/ASE2024-43.webp",
     "width": 1166,
     "height": 776
+  },
+  {
+    "category": "11-ChordDiagram-\u5f26\u56fe",
+    "file": "11-ChordDiagram-\u5f26\u56fe/ICS2023-19.webp",
+    "width": 1110,
+    "height": 1512
   },
   {
     "category": "11-ChordDiagram-\u5f26\u56fe",
@@ -1363,6 +1375,12 @@
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/ICS2023-5.webp",
+    "width": 2356,
+    "height": 884
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
     "file": "15-BarChart-\u67f1\u72b6\u56fe/CGO2024-1.webp",
     "width": 3558,
     "height": 2252
@@ -1453,6 +1471,12 @@
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/ICS2023-3.webp",
+    "width": 1146,
+    "height": 644
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
     "file": "16-Combination-\u7ec4\u5408\u56fe/CGO2023-28.webp",
     "width": 1624,
     "height": 1730
@@ -1501,9 +1525,21 @@
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/CGO2023-30.webp",
+    "width": 1610,
+    "height": 1234
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/CGO2025-Qubit Movement-Optimized Program Generation on Zoned Neutral Atom Processors5.webp",
     "width": 1186,
     "height": 584
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/ICS2023-8.webp",
+    "width": 1168,
+    "height": 848
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
@@ -1531,6 +1567,12 @@
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/ICS2023-18.webp",
+    "width": 1106,
+    "height": 810
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/CGO2024-34.webp",
     "width": 1684,
     "height": 1062
@@ -1546,5 +1588,59 @@
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/CGO2024-37.webp",
     "width": 1688,
     "height": 1108
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/CGO2025-CUrator: An Efficient LLM Execution Engine with Optimized Integration of CUDA Libraries7.webp",
+    "width": 1034,
+    "height": 710
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/ICS2023-17.webp",
+    "width": 1136,
+    "height": 1112
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/ICS2023-14.webp",
+    "width": 2322,
+    "height": 1388
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/ICS2024-3.webp",
+    "width": 1244,
+    "height": 946
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/CGO2025-Vectron: A Dynamic Programming Auto-vectorization Framework1.webp",
+    "width": 2442,
+    "height": 1640
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/CGO2025-Vectron: A Dynamic Programming Auto-vectorization Framework2.webp",
+    "width": 1062,
+    "height": 1454
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/ICS2023-7.webp",
+    "width": 1180,
+    "height": 1042
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/CGO2024-6.webp",
+    "width": 1700,
+    "height": 1032
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/CGO2024-5.webp",
+    "width": 1282,
+    "height": 964
   }
 ]
