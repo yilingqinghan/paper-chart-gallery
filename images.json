@@ -223,6 +223,12 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICS2024-11.webp",
+    "width": 1290,
+    "height": 1756
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2024-39.webp",
     "width": 1674,
     "height": 1728
@@ -238,6 +244,12 @@
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2025-PreFix: Optimizing the Performance of Heap-Intensive Applications3.webp",
     "width": 1170,
     "height": 630
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICS2024-1.webp",
+    "width": 2648,
+    "height": 1612
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
@@ -421,6 +433,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2024-13.webp",
+    "width": 1250,
+    "height": 1044
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Accelerating LLMs using an Efficient GEMM Library  and Target-Aware Optimizations on Real-World PIM  Devices10.webp",
     "width": 1214,
     "height": 648
@@ -430,6 +448,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Vectron: A Dynamic Programming Auto-vectorization Framework1.webp",
     "width": 2442,
     "height": 1640
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2024-4.webp",
+    "width": 1266,
+    "height": 800
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -703,6 +727,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2024-3.webp",
+    "width": 1244,
+    "height": 946
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Teapot: Efficiently Uncovering Spectre Gadgets in COTS Binaries2.webp",
     "width": 1194,
     "height": 838
@@ -796,6 +826,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2023-40.webp",
     "width": 1492,
     "height": 1028
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2024-12.webp",
+    "width": 1308,
+    "height": 1122
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -895,6 +931,12 @@
   },
   {
     "category": "08-Heatmap-\u70ed\u529b\u56fe",
+    "file": "08-Heatmap-\u70ed\u529b\u56fe/ICS2024-7.webp",
+    "width": 1338,
+    "height": 754
+  },
+  {
+    "category": "08-Heatmap-\u70ed\u529b\u56fe",
     "file": "08-Heatmap-\u70ed\u529b\u56fe/CGO2024-16.webp",
     "width": 1698,
     "height": 1318
@@ -946,6 +988,12 @@
     "file": "09-ScatterPlot-\u6563\u70b9\u56fe/ASE2023-20.webp",
     "width": 990,
     "height": 828
+  },
+  {
+    "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
+    "file": "09-ScatterPlot-\u6563\u70b9\u56fe/ICS2024-14.webp",
+    "width": 1342,
+    "height": 988
   },
   {
     "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
@@ -1231,6 +1279,12 @@
   },
   {
     "category": "14-LineChart-\u6298\u7ebf\u56fe",
+    "file": "14-LineChart-\u6298\u7ebf\u56fe/ICS2024-5.webp",
+    "width": 1282,
+    "height": 520
+  },
+  {
+    "category": "14-LineChart-\u6298\u7ebf\u56fe",
     "file": "14-LineChart-\u6298\u7ebf\u56fe/ASE2023-11.webp",
     "width": 982,
     "height": 676
@@ -1240,6 +1294,12 @@
     "file": "14-LineChart-\u6298\u7ebf\u56fe/ASE2024-23.webp",
     "width": 2372,
     "height": 1200
+  },
+  {
+    "category": "14-LineChart-\u6298\u7ebf\u56fe",
+    "file": "14-LineChart-\u6298\u7ebf\u56fe/ICS2024-8.webp",
+    "width": 2612,
+    "height": 1196
   },
   {
     "category": "14-LineChart-\u6298\u7ebf\u56fe",
@@ -1273,6 +1333,12 @@
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/ICS2024-10.webp",
+    "width": 2644,
+    "height": 780
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
     "file": "15-BarChart-\u67f1\u72b6\u56fe/CGO2025-Tensorize: Fast Synthesis of Tensor Programs from Legacy Code using Symbolic Tracing, Sketching and Solving1.webp",
     "width": 2798,
     "height": 1472
@@ -1288,6 +1354,12 @@
     "file": "15-BarChart-\u67f1\u72b6\u56fe/CGO2025-Teapot: Efficiently Uncovering Spectre Gadgets in COTS Binaries3.webp",
     "width": 1186,
     "height": 782
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/ICS2024-2.webp",
+    "width": 2560,
+    "height": 816
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
@@ -1416,10 +1488,22 @@
     "height": 2248
   },
   {
+    "category": "18-Swimlane-\u6cf3\u9053\u56fe",
+    "file": "18-Swimlane-\u6cf3\u9053\u56fe/ICS2024-9.webp",
+    "width": 2604,
+    "height": 976
+  },
+  {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/CGO2024-34.webp",
     "width": 1684,
     "height": 1062
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/ICS2024-6.webp",
+    "width": 2064,
+    "height": 1852
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
@@ -1438,6 +1522,12 @@
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/CGO2025-Qubit Movement-Optimized Program Generation on Zoned Neutral Atom Processors5.webp",
     "width": 1186,
     "height": 584
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/ICS2024-15.webp",
+    "width": 1278,
+    "height": 714
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
