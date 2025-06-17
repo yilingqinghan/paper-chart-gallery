@@ -55,6 +55,12 @@
   },
   {
     "category": "01-Table-\u8868\u683c",
+    "file": "01-Table-\u8868\u683c/OSDI2023-1.webp",
+    "width": 2352,
+    "height": 1264
+  },
+  {
+    "category": "01-Table-\u8868\u683c",
     "file": "01-Table-\u8868\u683c/ASE2023-1.webp",
     "width": 2006,
     "height": 872
@@ -142,6 +148,12 @@
     "file": "01-Table-\u8868\u683c/ASE2024-56.webp",
     "width": 2358,
     "height": 1538
+  },
+  {
+    "category": "02-PieChart-\u997c\u56fe",
+    "file": "02-PieChart-\u997c\u56fe/OSDI2023-20.webp",
+    "width": 1138,
+    "height": 750
   },
   {
     "category": "02-PieChart-\u997c\u56fe",
@@ -289,6 +301,12 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/OSDI2023-3.webp",
+    "width": 2358,
+    "height": 952
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/MICRO2023-31.webp",
     "width": 1154,
     "height": 1360
@@ -364,6 +382,12 @@
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2024-32.webp",
     "width": 3424,
     "height": 1640
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/OSDI2023-17.webp",
+    "width": 2260,
+    "height": 1038
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
@@ -631,6 +655,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2023-25.webp",
+    "width": 1100,
+    "height": 512
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2023-35.webp",
     "width": 1456,
     "height": 1160
@@ -703,6 +733,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2023-7.webp",
+    "width": 1204,
+    "height": 570
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Tensorize: Fast Synthesis of Tensor Programs from Legacy Code using Symbolic Tracing, Sketching and Solving3.webp",
     "width": 2714,
     "height": 776
@@ -727,6 +763,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2023-6.webp",
+    "width": 1142,
+    "height": 566
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2023-15.webp",
     "width": 1124,
     "height": 804
@@ -736,6 +778,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ASE2024-12.webp",
     "width": 1160,
     "height": 582
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2023-5.webp",
+    "width": 2358,
+    "height": 638
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -814,6 +862,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ASE2023-12.webp",
     "width": 1978,
     "height": 624
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2023-8.webp",
+    "width": 1180,
+    "height": 614
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -931,6 +985,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2023-16.webp",
+    "width": 1124,
+    "height": 670
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Enhancing Deployment-Time Predictive Model Robustness for Code Analysis and Optimization4.webp",
     "width": 1642,
     "height": 662
@@ -949,6 +1009,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2023-14.webp",
+    "width": 1138,
+    "height": 576
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-IntelliGen: Instruction-Level Auto-tuning for Tensor  Program with Monotonic Memory Optimization5.webp",
     "width": 1038,
     "height": 852
@@ -964,6 +1030,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ASPLOS20237.webp",
     "width": 1646,
     "height": 932
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2023-15.webp",
+    "width": 1142,
+    "height": 548
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -997,6 +1069,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2023-10.webp",
+    "width": 1190,
+    "height": 1004
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ASPLOS20232.webp",
     "width": 1618,
     "height": 754
@@ -1024,6 +1102,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Calibro: Compilation-Assisted Linking-Time Binary  Code Outlining for Code Size Reduction in Android  Applications4.webp",
     "width": 2050,
     "height": 572
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2023-13.webp",
+    "width": 1132,
+    "height": 1408
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -1090,6 +1174,12 @@
     "file": "07-AreaChart-\u9762\u79ef\u56fe/ASE2024-40.webp",
     "width": 2392,
     "height": 1040
+  },
+  {
+    "category": "07-AreaChart-\u9762\u79ef\u56fe",
+    "file": "07-AreaChart-\u9762\u79ef\u56fe/OSDI2023-11.webp",
+    "width": 1130,
+    "height": 878
   },
   {
     "category": "08-Heatmap-\u70ed\u529b\u56fe",
@@ -1417,6 +1507,12 @@
   },
   {
     "category": "11-ChordDiagram-\u5f26\u56fe",
+    "file": "11-ChordDiagram-\u5f26\u56fe/OSDI2023-23.webp",
+    "width": 1138,
+    "height": 592
+  },
+  {
+    "category": "11-ChordDiagram-\u5f26\u56fe",
     "file": "11-ChordDiagram-\u5f26\u56fe/ICSA2023-16.webp",
     "width": 910,
     "height": 618
@@ -1567,6 +1663,12 @@
   },
   {
     "category": "14-LineChart-\u6298\u7ebf\u56fe",
+    "file": "14-LineChart-\u6298\u7ebf\u56fe/OSDI2023-4.webp",
+    "width": 1140,
+    "height": 670
+  },
+  {
+    "category": "14-LineChart-\u6298\u7ebf\u56fe",
     "file": "14-LineChart-\u6298\u7ebf\u56fe/ASE2023-5.webp",
     "width": 2004,
     "height": 554
@@ -1603,6 +1705,12 @@
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/OSDI2023-22.webp",
+    "width": 2296,
+    "height": 662
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
     "file": "15-BarChart-\u67f1\u72b6\u56fe/OSDI2024-14.webp",
     "width": 2376,
     "height": 842
@@ -1630,6 +1738,12 @@
     "file": "15-BarChart-\u67f1\u72b6\u56fe/CGO2025-Tensorize: Fast Synthesis of Tensor Programs from Legacy Code using Symbolic Tracing, Sketching and Solving1.webp",
     "width": 2798,
     "height": 1472
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/OSDI2023-2.webp",
+    "width": 2372,
+    "height": 1148
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
@@ -1690,6 +1804,12 @@
     "file": "15-BarChart-\u67f1\u72b6\u56fe/MICRO2023-36.webp",
     "width": 1146,
     "height": 580
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/OSDI2023-9.webp",
+    "width": 1150,
+    "height": 800
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
@@ -1783,6 +1903,12 @@
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/OSDI2023-19.webp",
+    "width": 2356,
+    "height": 732
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
     "file": "16-Combination-\u7ec4\u5408\u56fe/ICSA2023-11.webp",
     "width": 1120,
     "height": 1268
@@ -1861,6 +1987,12 @@
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/OSDI2023-12.webp",
+    "width": 2318,
+    "height": 694
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
     "file": "16-Combination-\u7ec4\u5408\u56fe/ICSA2023-18.webp",
     "width": 1138,
     "height": 1274
@@ -1888,6 +2020,12 @@
     "file": "17-Venn-\u97e6\u6069\u56fe/ASE2024-50.webp",
     "width": 1132,
     "height": 858
+  },
+  {
+    "category": "18-Swimlane-\u6cf3\u9053\u56fe",
+    "file": "18-Swimlane-\u6cf3\u9053\u56fe/OSDI2023-24.webp",
+    "width": 2278,
+    "height": 490
   },
   {
     "category": "18-Swimlane-\u6cf3\u9053\u56fe",
@@ -1960,6 +2098,12 @@
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/OSDI2024-16.webp",
     "width": 1170,
     "height": 770
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/OSDI2023-21.webp",
+    "width": 2290,
+    "height": 768
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
@@ -2236,6 +2380,12 @@
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/MICRO2023-6.webp",
     "width": 1120,
     "height": 1132
+  },
+  {
+    "category": "21-Flame-\u706b\u7130\u56fe",
+    "file": "21-Flame-\u706b\u7130\u56fe/OSDI2023-18.webp",
+    "width": 1144,
+    "height": 612
   },
   {
     "category": "21-Flame-\u706b\u7130\u56fe",
