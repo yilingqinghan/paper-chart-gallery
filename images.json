@@ -133,19 +133,31 @@
   },
   {
     "category": "01-Table-\u8868\u683c",
+    "file": "01-Table-\u8868\u683c/OSDI2024-19.webp",
+    "width": 1134,
+    "height": 1998
+  },
+  {
+    "category": "01-Table-\u8868\u683c",
     "file": "01-Table-\u8868\u683c/ASE2024-56.webp",
     "width": 2358,
     "height": 1538
   },
   {
-    "category": "02-BarChart-\u997c\u56fe",
-    "file": "02-BarChart-\u997c\u56fe/ASE2024-46.webp",
+    "category": "02-PieChart-\u997c\u56fe",
+    "file": "02-PieChart-\u997c\u56fe/OSDI2024-11.webp",
+    "width": 1094,
+    "height": 610
+  },
+  {
+    "category": "02-PieChart-\u997c\u56fe",
+    "file": "02-PieChart-\u997c\u56fe/ASE2024-46.webp",
     "width": 1142,
     "height": 876
   },
   {
-    "category": "02-BarChart-\u997c\u56fe",
-    "file": "02-BarChart-\u997c\u56fe/ASE2024-47.webp",
+    "category": "02-PieChart-\u997c\u56fe",
+    "file": "02-PieChart-\u997c\u56fe/ASE2024-47.webp",
     "width": 1120,
     "height": 1038
   },
@@ -184,6 +196,12 @@
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2025-A Priori Loop Nest Normalization: Automatic Loop Scheduling in Complex Applications3.webp",
     "width": 2440,
     "height": 972
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/OSDI2024-10.webp",
+    "width": 1140,
+    "height": 1148
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
@@ -349,6 +367,12 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/OSDI2024-8.webp",
+    "width": 1154,
+    "height": 1518
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2024-25.webp",
     "width": 1708,
     "height": 996
@@ -364,6 +388,18 @@
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICS2023-6.webp",
     "width": 1138,
     "height": 896
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/OSDI2024-9.webp",
+    "width": 2314,
+    "height": 734
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/OSDI2024-18.webp",
+    "width": 1170,
+    "height": 1798
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
@@ -463,6 +499,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2024-2.webp",
+    "width": 2378,
+    "height": 662
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures6.webp",
     "width": 2396,
     "height": 1190
@@ -472,6 +514,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2024-13.webp",
     "width": 3452,
     "height": 990
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2024-17.webp",
+    "width": 1126,
+    "height": 924
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -514,6 +562,18 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ASE2024-3.webp",
     "width": 2406,
     "height": 746
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2024-3.webp",
+    "width": 1116,
+    "height": 1450
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2024-1.webp",
+    "width": 1188,
+    "height": 2062
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -580,6 +640,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ASE2024-5.webp",
     "width": 1156,
     "height": 860
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2024-5.webp",
+    "width": 1112,
+    "height": 590
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -997,6 +1063,12 @@
   },
   {
     "category": "07-AreaChart-\u9762\u79ef\u56fe",
+    "file": "07-AreaChart-\u9762\u79ef\u56fe/OSDI2024-12.webp",
+    "width": 1178,
+    "height": 618
+  },
+  {
+    "category": "07-AreaChart-\u9762\u79ef\u56fe",
     "file": "07-AreaChart-\u9762\u79ef\u56fe/MICRO2023-10.webp",
     "width": 2316,
     "height": 830
@@ -1363,6 +1435,12 @@
   },
   {
     "category": "11-ChordDiagram-\u5f26\u56fe",
+    "file": "11-ChordDiagram-\u5f26\u56fe/OSDI2024-20.webp",
+    "width": 1180,
+    "height": 588
+  },
+  {
+    "category": "11-ChordDiagram-\u5f26\u56fe",
     "file": "11-ChordDiagram-\u5f26\u56fe/ASE2024-55.webp",
     "width": 2288,
     "height": 786
@@ -1522,6 +1600,12 @@
     "file": "14-LineChart-\u6298\u7ebf\u56fe/ICS2024-5.webp",
     "width": 1282,
     "height": 520
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/OSDI2024-14.webp",
+    "width": 2376,
+    "height": 842
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
@@ -1693,6 +1777,12 @@
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/OSDI2024-15.webp",
+    "width": 1162,
+    "height": 974
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
     "file": "16-Combination-\u7ec4\u5408\u56fe/ICSA2023-11.webp",
     "width": 1120,
     "height": 1268
@@ -1801,6 +1891,12 @@
   },
   {
     "category": "18-Swimlane-\u6cf3\u9053\u56fe",
+    "file": "18-Swimlane-\u6cf3\u9053\u56fe/OSDI2024-6.webp",
+    "width": 2394,
+    "height": 598
+  },
+  {
+    "category": "18-Swimlane-\u6cf3\u9053\u56fe",
     "file": "18-Swimlane-\u6cf3\u9053\u56fe/ICS2024-9.webp",
     "width": 2604,
     "height": 976
@@ -1861,6 +1957,12 @@
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/OSDI2024-16.webp",
+    "width": 1170,
+    "height": 770
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/MICRO2023-8.webp",
     "width": 1122,
     "height": 600
@@ -1873,9 +1975,21 @@
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/OSDI2024-4.webp",
+    "width": 1150,
+    "height": 728
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/CGO2025-Qubit Movement-Optimized Program Generation on Zoned Neutral Atom Processors5.webp",
     "width": 1186,
     "height": 584
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/OSDI2024-7.webp",
+    "width": 1184,
+    "height": 466
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
@@ -2122,5 +2236,11 @@
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/MICRO2023-6.webp",
     "width": 1120,
     "height": 1132
+  },
+  {
+    "category": "21-Flame-\u706b\u7130\u56fe",
+    "file": "21-Flame-\u706b\u7130\u56fe/OSDI2024-13.webp",
+    "width": 1118,
+    "height": 500
   }
 ]
