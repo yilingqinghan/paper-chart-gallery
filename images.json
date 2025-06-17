@@ -43,6 +43,12 @@
   },
   {
     "category": "01-Table-\u8868\u683c",
+    "file": "01-Table-\u8868\u683c/OSDI2024-19.webp",
+    "width": 1134,
+    "height": 1998
+  },
+  {
+    "category": "01-Table-\u8868\u683c",
     "file": "01-Table-\u8868\u683c/CGO2024-12.webp",
     "width": 3420,
     "height": 710
@@ -138,14 +144,20 @@
     "height": 2262
   },
   {
-    "category": "02-BarChart-\u997c\u56fe",
-    "file": "02-BarChart-\u997c\u56fe/ASE2024-46.webp",
+    "category": "02-PieChart-\u997c\u56fe",
+    "file": "02-PieChart-\u997c\u56fe/ASE2024-46.webp",
     "width": 1142,
     "height": 876
   },
   {
-    "category": "02-BarChart-\u997c\u56fe",
-    "file": "02-BarChart-\u997c\u56fe/ASE2024-47.webp",
+    "category": "02-PieChart-\u997c\u56fe",
+    "file": "02-PieChart-\u997c\u56fe/OSDI2024-11.webp",
+    "width": 1094,
+    "height": 610
+  },
+  {
+    "category": "02-PieChart-\u997c\u56fe",
+    "file": "02-PieChart-\u997c\u56fe/ASE2024-47.webp",
     "width": 1120,
     "height": 1038
   },
@@ -295,6 +307,12 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/OSDI2024-9.webp",
+    "width": 2314,
+    "height": 734
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2025-IntelliGen: Instruction-Level Auto-tuning for Tensor  Program with Monotonic Memory Optimization4.webp",
     "width": 1054,
     "height": 800
@@ -310,6 +328,12 @@
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICSA2023-25.webp",
     "width": 1130,
     "height": 748
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/OSDI2024-8.webp",
+    "width": 1154,
+    "height": 1518
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
@@ -343,6 +367,12 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/OSDI2024-18.webp",
+    "width": 1170,
+    "height": 1798
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2025-A Multi-level Compiler Backend for Accelerated  Micro-kernels Targeting RISC-V ISA Extensions4.webp",
     "width": 1066,
     "height": 948
@@ -370,6 +400,12 @@
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICS2023-6.webp",
     "width": 1138,
     "height": 896
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/OSDI2024-10.webp",
+    "width": 1140,
+    "height": 1148
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
@@ -517,6 +553,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2024-3.webp",
+    "width": 1116,
+    "height": 1450
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Qubit Movement-Optimized Program Generation on Zoned Neutral Atom Processors3.webp",
     "width": 1212,
     "height": 1346
@@ -577,6 +619,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2024-2.webp",
+    "width": 2378,
+    "height": 662
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2023-22.webp",
     "width": 1652,
     "height": 1114
@@ -586,6 +634,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ASE2024-12.webp",
     "width": 1160,
     "height": 582
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2024-1.webp",
+    "width": 1188,
+    "height": 2062
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -610,6 +664,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Combining MLIR Dialects with Domain-Specific Architecture for Efficient Regular Expression Matching2.webp",
     "width": 1184,
     "height": 810
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2024-17.webp",
+    "width": 1126,
+    "height": 924
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -967,6 +1027,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2024-5.webp",
+    "width": 1112,
+    "height": 590
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures6.webp",
     "width": 2396,
     "height": 1190
@@ -1012,6 +1078,12 @@
     "file": "07-AreaChart-\u9762\u79ef\u56fe/MICRO2023-10.webp",
     "width": 2316,
     "height": 830
+  },
+  {
+    "category": "07-AreaChart-\u9762\u79ef\u56fe",
+    "file": "07-AreaChart-\u9762\u79ef\u56fe/OSDI2024-12.webp",
+    "width": 1178,
+    "height": 618
   },
   {
     "category": "07-AreaChart-\u9762\u79ef\u56fe",
@@ -1345,6 +1417,12 @@
   },
   {
     "category": "11-ChordDiagram-\u5f26\u56fe",
+    "file": "11-ChordDiagram-\u5f26\u56fe/OSDI2024-20.webp",
+    "width": 1180,
+    "height": 588
+  },
+  {
+    "category": "11-ChordDiagram-\u5f26\u56fe",
     "file": "11-ChordDiagram-\u5f26\u56fe/ASE2024-53.webp",
     "width": 1138,
     "height": 1002
@@ -1561,6 +1639,12 @@
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/OSDI2024-14.webp",
+    "width": 2376,
+    "height": 842
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
     "file": "15-BarChart-\u67f1\u72b6\u56fe/MICRO2023-37.webp",
     "width": 1150,
     "height": 692
@@ -1666,6 +1750,12 @@
     "file": "15-BarChart-\u67f1\u72b6\u56fe/ICSA2023-22.webp",
     "width": 1134,
     "height": 1172
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/OSDI2024-15.webp",
+    "width": 1162,
+    "height": 974
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
@@ -1843,6 +1933,12 @@
   },
   {
     "category": "18-Swimlane-\u6cf3\u9053\u56fe",
+    "file": "18-Swimlane-\u6cf3\u9053\u56fe/OSDI2024-6.webp",
+    "width": 2394,
+    "height": 598
+  },
+  {
+    "category": "18-Swimlane-\u6cf3\u9053\u56fe",
     "file": "18-Swimlane-\u6cf3\u9053\u56fe/MICRO2023-28.webp",
     "width": 1146,
     "height": 532
@@ -1852,6 +1948,18 @@
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/ICSA2023-5.webp",
     "width": 2372,
     "height": 736
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/OSDI2024-16.webp",
+    "width": 1170,
+    "height": 770
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/OSDI2024-4.webp",
+    "width": 1150,
+    "height": 728
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
@@ -1930,6 +2038,12 @@
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/CGO2025-Scalar Interpolation: A Better Balance between Vector and Scalar Execution for SuperScalar Architectures1.webp",
     "width": 2724,
     "height": 1622
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/OSDI2024-7.webp",
+    "width": 1184,
+    "height": 466
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
@@ -2122,5 +2236,11 @@
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/MICRO2023-38.webp",
     "width": 1124,
     "height": 1764
+  },
+  {
+    "category": "21-Flame-\u706b\u7130\u56fe",
+    "file": "21-Flame-\u706b\u7130\u56fe/OSDI2024-13.webp",
+    "width": 1118,
+    "height": 500
   }
 ]
