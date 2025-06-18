@@ -79,6 +79,18 @@
           Prev
         </button>
         <span class="px-3 py-1">Page {{ page }} / {{ totalPages }}</span>
+        <div class="flex items-center mx-2">
+          <input type="number"
+                 v-model.number="jumpPage"
+                 :min="1"
+                 :max="totalPages"
+                 class="w-16 px-2 py-1 border rounded mr-1"
+                 placeholder="页码"/>
+          <button @click="goToPage()"
+                  class="bg-green-500 text-white px-2 py-1 rounded">
+            Jump To
+          </button>
+        </div>
         <button @click="page++" :disabled="page === totalPages"
                 class="bg-blue-500 text-white px-3 py-1 rounded disabled:bg-gray-300 disabled:text-gray-600">
           Next
@@ -96,6 +108,7 @@
                 categories: [],
                 filter: '',
                 page: 1,
+                jumpPage: 1,
                 chart: null,
                 showModal: false,
                 modalImage: ''
@@ -162,6 +175,11 @@
             openModal(src) {
               this.modalImage = src;
               this.showModal = true;
+            },
+            goToPage() {
+              // clamp jumpPage to valid range
+              const p = Math.min(Math.max(1, this.jumpPage), this.totalPages);
+              this.page = p;
             }
         },
         mounted() {
