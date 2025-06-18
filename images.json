@@ -289,6 +289,12 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/SC2023-18.webp",
+    "width": 2316,
+    "height": 934
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICS2023-11.webp",
     "width": 1136,
     "height": 2008
@@ -529,6 +535,12 @@
   },
   {
     "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
+    "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/SC2023-10.webp",
+    "width": 2300,
+    "height": 1110
+  },
+  {
+    "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
     "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/CGO2024-26.webp",
     "width": 1716,
     "height": 1226
@@ -655,6 +667,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/SC2023-2.webp",
+    "width": 1100,
+    "height": 732
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/MICRO2023-9.webp",
     "width": 1138,
     "height": 1176
@@ -688,6 +706,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Qiwu: Exploiting Ciphertext-Level SIMD Parallelism in Homomorphic Encryption Programs4.webp",
     "width": 2442,
     "height": 1170
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/SC2023-6.webp",
+    "width": 1122,
+    "height": 1248
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -982,6 +1006,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2024-4.webp",
     "width": 1266,
     "height": 800
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/SC2023-12.webp",
+    "width": 2318,
+    "height": 560
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -1492,6 +1522,12 @@
     "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/CGO2025-Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures3.webp",
     "width": 2400,
     "height": 840
+  },
+  {
+    "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
+    "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/SC2023-4.webp",
+    "width": 2330,
+    "height": 1222
   },
   {
     "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
@@ -2011,6 +2047,12 @@
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/SC2023-3.webp",
+    "width": 2406,
+    "height": 728
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
     "file": "16-Combination-\u7ec4\u5408\u56fe/OSDI2024-15.webp",
     "width": 1162,
     "height": 974
@@ -2092,6 +2134,12 @@
     "file": "16-Combination-\u7ec4\u5408\u56fe/CGO2023-2.webp",
     "width": 3330,
     "height": 1172
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/SC2023-13.webp",
+    "width": 1140,
+    "height": 1732
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
@@ -2347,6 +2395,12 @@
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/SC2023-14.webp",
+    "width": 1128,
+    "height": 1596
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/MICRO2023-23.webp",
     "width": 1116,
     "height": 840
@@ -2419,6 +2473,12 @@
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/SC2023-1.webp",
+    "width": 1120,
+    "height": 906
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PACT2024-3.webp",
     "width": 2358,
     "height": 1036
@@ -2434,6 +2494,18 @@
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/MICRO2023-48.webp",
     "width": 2394,
     "height": 660
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/SC2023-7.webp",
+    "width": 2332,
+    "height": 724
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/SC2023-5.webp",
+    "width": 1142,
+    "height": 1160
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
@@ -2503,6 +2575,12 @@
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/SC2023-19.webp",
+    "width": 1150,
+    "height": 976
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-1.webp",
     "width": 1150,
     "height": 508
@@ -2512,6 +2590,18 @@
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-2.webp",
     "width": 1124,
     "height": 1022
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/SC2023-16.webp",
+    "width": 1122,
+    "height": 818
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/SC2023-17.webp",
+    "width": 1112,
+    "height": 1168
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
@@ -2539,6 +2629,12 @@
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/SC2023-15.webp",
+    "width": 1078,
+    "height": 542
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/ICS2024-3.webp",
     "width": 1244,
     "height": 946
@@ -2563,6 +2659,12 @@
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/SC2023-11.webp",
+    "width": 2306,
+    "height": 1078
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/MICRO2023-20.webp",
     "width": 1122,
     "height": 1418
@@ -2575,6 +2677,12 @@
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/SC2023-9.webp",
+    "width": 1112,
+    "height": 578
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/ICSA2023-21.webp",
     "width": 1122,
     "height": 906
@@ -2584,6 +2692,12 @@
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2024-10.webp",
     "width": 1118,
     "height": 494
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/SC2023-8.webp",
+    "width": 1112,
+    "height": 1184
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
