@@ -43,6 +43,12 @@
   },
   {
     "category": "01-Table-\u8868\u683c",
+    "file": "01-Table-\u8868\u683c/PPoPP2025-12.webp",
+    "width": 1160,
+    "height": 770
+  },
+  {
+    "category": "01-Table-\u8868\u683c",
     "file": "01-Table-\u8868\u683c/ASE2024-39.webp",
     "width": 2486,
     "height": 2138
@@ -70,6 +76,12 @@
     "file": "01-Table-\u8868\u683c/CGO2025-VEGA: Automatically Generating Compiler Backends using a Pre-trained Transformer Model9.webp",
     "width": 1656,
     "height": 496
+  },
+  {
+    "category": "01-Table-\u8868\u683c",
+    "file": "01-Table-\u8868\u683c/PPoPP2025-16.webp",
+    "width": 2320,
+    "height": 664
   },
   {
     "category": "01-Table-\u8868\u683c",
@@ -160,6 +172,12 @@
     "file": "02-PieChart-\u997c\u56fe/OSDI2024-11.webp",
     "width": 1094,
     "height": 610
+  },
+  {
+    "category": "02-PieChart-\u997c\u56fe",
+    "file": "02-PieChart-\u997c\u56fe/PPoPP2025-13.webp",
+    "width": 2320,
+    "height": 1226
   },
   {
     "category": "02-PieChart-\u997c\u56fe",
@@ -355,6 +373,12 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/PPoPP2025-23.webp",
+    "width": 2336,
+    "height": 924
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2025-PreFix: Optimizing the Performance of Heap-Intensive Applications3.webp",
     "width": 1170,
     "height": 630
@@ -526,6 +550,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2024-2.webp",
     "width": 2378,
     "height": 662
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/PACT2024-2.webp",
+    "width": 1102,
+    "height": 832
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -796,6 +826,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2023-42.webp",
     "width": 3270,
     "height": 838
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/PPoPP2025-28.webp",
+    "width": 2316,
+    "height": 902
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -1171,6 +1207,12 @@
   },
   {
     "category": "07-AreaChart-\u9762\u79ef\u56fe",
+    "file": "07-AreaChart-\u9762\u79ef\u56fe/PPoPP2025-8.webp",
+    "width": 1116,
+    "height": 1222
+  },
+  {
+    "category": "07-AreaChart-\u9762\u79ef\u56fe",
     "file": "07-AreaChart-\u9762\u79ef\u56fe/ASE2024-40.webp",
     "width": 2392,
     "height": 1040
@@ -1279,6 +1321,12 @@
   },
   {
     "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
+    "file": "09-ScatterPlot-\u6563\u70b9\u56fe/PACT2024-5.webp",
+    "width": 2284,
+    "height": 846
+  },
+  {
+    "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
     "file": "09-ScatterPlot-\u6563\u70b9\u56fe/CGO2025-Qubit Movement-Optimized Program Generation on Zoned Neutral Atom Processors7.webp",
     "width": 1236,
     "height": 944
@@ -1300,6 +1348,12 @@
     "file": "09-ScatterPlot-\u6563\u70b9\u56fe/ASE2023-18.webp",
     "width": 1968,
     "height": 548
+  },
+  {
+    "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
+    "file": "09-ScatterPlot-\u6563\u70b9\u56fe/PPoPP2025-5.webp",
+    "width": 1150,
+    "height": 522
   },
   {
     "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
@@ -1429,6 +1483,12 @@
   },
   {
     "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
+    "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/PPoPP2025-7.webp",
+    "width": 1126,
+    "height": 508
+  },
+  {
+    "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
     "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/ASE2023-6.webp",
     "width": 1620,
     "height": 646
@@ -1453,6 +1513,12 @@
   },
   {
     "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
+    "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/PPoPP2025-3.webp",
+    "width": 1116,
+    "height": 560
+  },
+  {
+    "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
     "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/CGO2023-8.webp",
     "width": 1634,
     "height": 1096
@@ -1474,6 +1540,12 @@
     "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/CGO2023-7.webp",
     "width": 3260,
     "height": 1110
+  },
+  {
+    "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
+    "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/PPoPP2025-22.webp",
+    "width": 1128,
+    "height": 546
   },
   {
     "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
@@ -1564,6 +1636,12 @@
     "file": "12-BoxPlot-\u7bb1\u7ebf\u56fe/ASE2024-17.webp",
     "width": 1196,
     "height": 480
+  },
+  {
+    "category": "12-BoxPlot-\u7bb1\u7ebf\u56fe",
+    "file": "12-BoxPlot-\u7bb1\u7ebf\u56fe/PPoPP2025-17.webp",
+    "width": 2366,
+    "height": 1158
   },
   {
     "category": "12-BoxPlot-\u7bb1\u7ebf\u56fe",
@@ -1723,6 +1801,12 @@
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/PACT2024-4.webp",
+    "width": 1176,
+    "height": 680
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
     "file": "15-BarChart-\u67f1\u72b6\u56fe/CGO2024-29.webp",
     "width": 3446,
     "height": 1246
@@ -1738,6 +1822,12 @@
     "file": "15-BarChart-\u67f1\u72b6\u56fe/CGO2025-Tensorize: Fast Synthesis of Tensor Programs from Legacy Code using Symbolic Tracing, Sketching and Solving1.webp",
     "width": 2798,
     "height": 1472
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/PPoPP2025-29.webp",
+    "width": 1166,
+    "height": 518
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
@@ -1780,6 +1870,12 @@
     "file": "15-BarChart-\u67f1\u72b6\u56fe/ICS2024-2.webp",
     "width": 2560,
     "height": 816
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/PPoPP2025-24.webp",
+    "width": 1124,
+    "height": 570
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
@@ -1945,6 +2041,18 @@
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/PPoPP2025-14.webp",
+    "width": 2324,
+    "height": 2926
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/PPoPP2025-26.webp",
+    "width": 1108,
+    "height": 1970
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
     "file": "16-Combination-\u7ec4\u5408\u56fe/ASE2024-26.webp",
     "width": 1116,
     "height": 1048
@@ -1954,6 +2062,12 @@
     "file": "16-Combination-\u7ec4\u5408\u56fe/CGO2023-3.webp",
     "width": 1134,
     "height": 2126
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/PPoPP2025-21.webp",
+    "width": 1146,
+    "height": 896
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
@@ -2101,6 +2215,12 @@
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/PACT2024-1.webp",
+    "width": 1126,
+    "height": 722
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/OSDI2023-21.webp",
     "width": 2290,
     "height": 768
@@ -2152,6 +2272,12 @@
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/ICSA2023-5.webp",
     "width": 2372,
     "height": 736
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/PPoPP2025-11.webp",
+    "width": 1114,
+    "height": 1046
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
@@ -2263,15 +2389,33 @@
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PACT2024-3.webp",
+    "width": 2358,
+    "height": 1036
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/MICRO2023-48.webp",
     "width": 2394,
     "height": 660
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PACT2024-6.webp",
+    "width": 1130,
+    "height": 762
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/ICSA2023-7.webp",
     "width": 1144,
     "height": 914
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-6.webp",
+    "width": 1102,
+    "height": 720
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
@@ -2287,15 +2431,63 @@
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-10.webp",
+    "width": 1100,
+    "height": 1184
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/ICSA2023-4.webp",
     "width": 1140,
     "height": 600
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-4.webp",
+    "width": 1074,
+    "height": 1106
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/ICS2023-14.webp",
     "width": 2322,
     "height": 1388
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-15.webp",
+    "width": 1106,
+    "height": 1716
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-1.webp",
+    "width": 1150,
+    "height": 508
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-2.webp",
+    "width": 1124,
+    "height": 1022
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-27.webp",
+    "width": 1172,
+    "height": 976
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-25.webp",
+    "width": 2336,
+    "height": 354
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-19.webp",
+    "width": 1104,
+    "height": 1030
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
@@ -2308,6 +2500,24 @@
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/ICS2024-3.webp",
     "width": 1244,
     "height": 946
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-18.webp",
+    "width": 1104,
+    "height": 644
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-20.webp",
+    "width": 2304,
+    "height": 908
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-9.webp",
+    "width": 1120,
+    "height": 1476
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
