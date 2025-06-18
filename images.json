@@ -373,6 +373,12 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/PPoPP2024-5.webp",
+    "width": 2360,
+    "height": 556
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICSA2023-25.webp",
     "width": 1130,
     "height": 748
@@ -400,6 +406,12 @@
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ASE2024-7.webp",
     "width": 1188,
     "height": 770
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/PPoPP2024-2.webp",
+    "width": 988,
+    "height": 866
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
@@ -1837,6 +1849,12 @@
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/PPoPP2024-4.webp",
+    "width": 1114,
+    "height": 874
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
     "file": "15-BarChart-\u67f1\u72b6\u56fe/ICS2024-10.webp",
     "width": 2644,
     "height": 780
@@ -2136,6 +2154,12 @@
     "height": 858
   },
   {
+    "category": "17-Venn-\u97e6\u6069\u56fe",
+    "file": "17-Venn-\u97e6\u6069\u56fe/PPoPP2024-6.webp",
+    "width": 1120,
+    "height": 926
+  },
+  {
     "category": "18-Swimlane-\u6cf3\u9053\u56fe",
     "file": "18-Swimlane-\u6cf3\u9053\u56fe/CGO2023-41.webp",
     "width": 1652,
@@ -2341,6 +2365,12 @@
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/PPoPP2024-3.webp",
+    "width": 1118,
+    "height": 1240
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/MICRO2023-8.webp",
     "width": 1122,
     "height": 600
@@ -2401,6 +2431,12 @@
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2024-8.webp",
+    "width": 1174,
+    "height": 742
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/MICRO2023-26.webp",
     "width": 1152,
     "height": 1090
@@ -2452,6 +2488,12 @@
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/CGO2024-5.webp",
     "width": 1282,
     "height": 964
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2024-7.webp",
+    "width": 2322,
+    "height": 872
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
@@ -2557,9 +2599,21 @@
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2024-1.webp",
+    "width": 1096,
+    "height": 1874
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-20.webp",
     "width": 2304,
     "height": 908
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2024-9.webp",
+    "width": 1142,
+    "height": 660
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
@@ -2590,6 +2644,12 @@
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/MICRO2023-38.webp",
     "width": 1124,
     "height": 1764
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2024-10.webp",
+    "width": 1118,
+    "height": 494
   },
   {
     "category": "21-Flame-\u706b\u7130\u56fe",
