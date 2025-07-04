@@ -505,6 +505,12 @@
   },
   {
     "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
+    "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/USENIXATC24-11.webp",
+    "width": 1010,
+    "height": 978
+  },
+  {
+    "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
     "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/CGO2025-VEGA: Automatically Generating Compiler Backends using a Pre-trained Transformer Model8.webp",
     "width": 3424,
     "height": 1288
@@ -772,6 +778,18 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2023-9.webp",
     "width": 1112,
     "height": 922
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/USENIXATC24-6.webp",
+    "width": 2084,
+    "height": 1190
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/USENIXATC24-10.webp",
+    "width": 1444,
+    "height": 482
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -1222,6 +1240,12 @@
     "file": "06-RadarChart-\u96f7\u8fbe\u56fe/ASE2024-45.webp",
     "width": 2344,
     "height": 556
+  },
+  {
+    "category": "07-AreaChart-\u9762\u79ef\u56fe",
+    "file": "07-AreaChart-\u9762\u79ef\u56fe/USENIXATC24-5.webp",
+    "width": 1002,
+    "height": 846
   },
   {
     "category": "07-AreaChart-\u9762\u79ef\u56fe",
@@ -1987,6 +2011,12 @@
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/USENIXATC24-9.webp",
+    "width": 990,
+    "height": 498
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
     "file": "15-BarChart-\u67f1\u72b6\u56fe/ICSA2023-27.webp",
     "width": 2362,
     "height": 632
@@ -2026,6 +2056,12 @@
     "file": "16-Combination-\u7ec4\u5408\u56fe/ICSA2023-15.webp",
     "width": 1172,
     "height": 956
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/USENIXATC24-3.webp",
+    "width": 1812,
+    "height": 586
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
@@ -2140,6 +2176,12 @@
     "file": "16-Combination-\u7ec4\u5408\u56fe/SC2023-13.webp",
     "width": 1140,
     "height": 1732
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/USENIXATC24-8.webp",
+    "width": 2052,
+    "height": 674
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
@@ -2323,6 +2365,12 @@
   },
   {
     "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/USENIXATC24-4.webp",
+    "width": 988,
+    "height": 598
+  },
+  {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
     "file": "19-Sequence-\u65f6\u5e8f\u56fe/CGO2025-Qubit Movement-Optimized Program Generation on Zoned Neutral Atom Processors5.webp",
     "width": 1186,
     "height": 584
@@ -2467,6 +2515,12 @@
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/USENIXATC24-2.webp",
+    "width": 996,
+    "height": 812
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/CGO2025-CUrator: An Efficient LLM Execution Engine with Optimized Integration of CUDA Libraries7.webp",
     "width": 1034,
     "height": 710
@@ -2482,6 +2536,12 @@
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PACT2024-3.webp",
     "width": 2358,
     "height": 1036
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/USENIXATC24-1.webp",
+    "width": 1010,
+    "height": 986
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
@@ -2506,6 +2566,12 @@
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/SC2023-5.webp",
     "width": 1142,
     "height": 1160
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/USENIXATC24-7.webp",
+    "width": 1008,
+    "height": 456
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
