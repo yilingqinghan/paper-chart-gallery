@@ -116,40 +116,51 @@
         },
         computed: {
             filtered() {
-                return this.filter
+                const arr = this.filter
                     ? this.images.filter(i => i.category === this.filter)
                     : this.images;
+                console.log('[computed.filtered] filter=', this.filter, '→', arr.length, 'items');
+                return arr;
             },
             totalPages() {
-                return Math.max(1, Math.ceil(this.filtered.length / PER_PAGE));
+                const tp = Math.max(1, Math.ceil(this.filtered.length / PER_PAGE));
+                console.log('[computed.totalPages]', tp);
+                return tp;
             },
             pagedImages() {
                 const start = (this.page - 1) * PER_PAGE;
-                return this.filtered.slice(start, start + PER_PAGE);
+                const pageArr = this.filtered.slice(start, start + PER_PAGE);
+                console.log(`[computed.pagedImages] page=${this.page}, start=${start}`, pageArr.map(i=>i.file));
+                return pageArr;
             }
         },
         watch: {
-            filter() {
+            filter(newVal) {
+                console.log('[watch.filter] changed to', newVal);
                 this.page = 1;
                 this.renderChart();
             },
-            images() {
+            images(newArr) {
+                console.log('[watch.images] images loaded, count=', newArr.length);
                 this.renderChart();
             }
         },
         methods: {
             renderChart() {
+                console.log('--- renderChart start ---');
                 const counts = {};
                 this.filtered.forEach(i => {
                     counts[i.category] = (counts[i.category] || 0) + 1;
                 });
-                // derive English-only labels by stripping numeric prefix and Chinese suffix
+                console.log('[renderChart] raw counts:', counts);
+
                 const rawLabels = Object.keys(counts);
                 const labels = rawLabels.map(l => {
-                  // split on '-' then take the part after numeric prefix
                   const parts = l.split('-', 2);
                   return parts.length === 2 ? parts[1] : l;
                 });
+                console.log('[renderChart] labels:', labels);
+
                 const data = {
                     labels: labels,
                     datasets: [{
@@ -158,8 +169,15 @@
                         backgroundColor: '#3b82f6'
                     }]
                 };
-                if (this.chart) this.chart.destroy();
+                console.log('[renderChart] dataset values:', data.datasets[0].data);
+
+                if (this.chart) {
+                    console.log('[renderChart] destroying previous chart');
+                    this.chart.destroy();
+                }
+                console.log('[renderChart] registering plugins');
                 Chart.register(ChartDataLabels);
+                console.log('[renderChart] creating new Chart');
                 this.chart = new Chart(
                     document.getElementById('statChart'),
                     { type: 'bar', data, options: {
@@ -171,22 +189,31 @@
                         plugins: { legend: { display: false }, datalabels: { anchor: 'end', align: 'end', color: '#000', font: { weight: 'bold' } } }
                     } }
                 );
+                console.log('--- renderChart end ---');
             },
             openModal(src) {
+              console.log('[openModal] src=', src);
               this.modalImage = src;
               this.showModal = true;
             },
             goToPage() {
-              // clamp jumpPage to valid range
               const p = Math.min(Math.max(1, this.jumpPage), this.totalPages);
+              console.log('[goToPage] jumping to', p);
               this.page = p;
             }
         },
         mounted() {
-            axios.get('images.json').then(res => {
-                this.images = res.data;
-                this.categories = [...new Set(this.images.map(i => i.category))].sort();
-            });
+            console.log('[mounted] fetching images.json …');
+            axios.get('images.json')
+                .then(res => {
+                    console.log('[mounted] images.json response:', res.status, res.data.length, 'items');
+                    this.images = res.data;
+                    this.categories = [...new Set(this.images.map(i => i.category))].sort();
+                    console.log('[mounted] categories:', this.categories);
+                })
+                .catch(err => {
+                    console.error('[mounted] failed to load images.json:', err);
+                });
         }
     }).mount('#app');
 </script>
