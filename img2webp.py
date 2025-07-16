@@ -14,7 +14,7 @@ from tqdm import tqdm
 WEBP_QUALITY = 80
 
 # Supported source extensions
-SRC_EXTS = {'.png', '.jpg', '.jpeg', '.bmp', '.gif', '.tif', '.tiff'}
+SRC_EXTS = {'.png', '.jpg', '.jpeg', '.bmp', '.gif', '.tif', '.tiff', '.webp'}
 
 script_dir = Path(__file__).resolve().parent
 root_dir = script_dir
