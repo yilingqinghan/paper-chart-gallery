@@ -523,6 +523,12 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/OSDI2025-8.webp",
+    "width": 1118,
+    "height": 934
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2025-SkipFlow: Improving the Precision of Points-to Analysis using Primitive Values and Predicate Edges2.webp",
     "width": 2464,
     "height": 550
@@ -877,6 +883,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2025-6.webp",
+    "width": 2324,
+    "height": 610
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2024-2.webp",
     "width": 2378,
     "height": 662
@@ -988,6 +1000,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ASE2023-12.webp",
     "width": 1978,
     "height": 624
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2025-7.webp",
+    "width": 1076,
+    "height": 674
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -1318,6 +1336,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2023-16.webp",
     "width": 1124,
     "height": 670
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/OSDI2025-4.webp",
+    "width": 1118,
+    "height": 800
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -1726,6 +1750,12 @@
     "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/MICRO2023-32.webp",
     "width": 1198,
     "height": 360
+  },
+  {
+    "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
+    "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/OSDI2025-5.webp",
+    "width": 1124,
+    "height": 798
   },
   {
     "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
@@ -2395,9 +2425,21 @@
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/OSDI2025-1.webp",
+    "width": 952,
+    "height": 604
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
     "file": "16-Combination-\u7ec4\u5408\u56fe/MICRO2023-11.webp",
     "width": 982,
     "height": 776
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/OSDI2025-2.webp",
+    "width": 1116,
+    "height": 832
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
@@ -3061,6 +3103,12 @@
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/OSDI2025-10.webp",
+    "width": 1118,
+    "height": 534
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/PPoPP2025-9.webp",
     "width": 1120,
     "height": 1476
@@ -3136,6 +3184,12 @@
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/USENIXATC24-2.webp",
     "width": 996,
     "height": 812
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/OSDI2025-9.webp",
+    "width": 2240,
+    "height": 398
   },
   {
     "category": "21-Flame-\u706b\u7130\u56fe",
