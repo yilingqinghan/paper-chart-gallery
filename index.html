@@ -2,103 +2,423 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Paper Figures Gallery</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        .thumb {
-            @apply cursor-pointer rounded transition hover:scale-105;
+        :root {
+            --bg-1: #f8fafc;
+            --bg-2: #eef2ff;
+            --ink: #0f172a;
+            --muted: #64748b;
+            --accent: #0f766e;
+            --line: rgba(148, 163, 184, 0.22);
+            --surface: rgba(255, 255, 255, 0.78);
+            --surface-strong: rgba(15, 23, 42, 0.96);
+            --shadow: 0 24px 80px rgba(15, 23, 42, 0.08);
         }
-        .pagination button {
-            @apply px-2 py-1 border rounded mx-1;
+
+        html {
+            scroll-behavior: smooth;
         }
-        .pagination button[disabled] {
-            @apply opacity-40 cursor-not-allowed;
+
+        body {
+            font-family: 'Manrope', 'Noto Sans SC', sans-serif;
+            color: var(--ink);
+            background:
+                radial-gradient(circle at top left, rgba(45, 212, 191, 0.14), transparent 30%),
+                radial-gradient(circle at top right, rgba(59, 130, 246, 0.12), transparent 25%),
+                linear-gradient(180deg, var(--bg-1) 0%, var(--bg-2) 100%);
         }
-        @keyframes fadeIn {
-          from { opacity: 0; }
-          to   { opacity: 1; }
+
+        .display-font {
+            font-family: 'Fraunces', 'Noto Serif SC', serif;
+            letter-spacing: -0.03em;
         }
+
+        .surface {
+            background: var(--surface);
+            border: 1px solid var(--line);
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(18px);
+        }
+
+        .surface-strong {
+            background: linear-gradient(180deg, rgba(15, 23, 42, 0.98) 0%, rgba(15, 23, 42, 0.92) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 28px 80px rgba(15, 23, 42, 0.24);
+        }
+
+        .kicker {
+            font-size: 11px;
+            font-weight: 800;
+            letter-spacing: 0.26em;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+
+        .toolbar-label {
+            display: block;
+            font-size: 0.74rem;
+            font-weight: 800;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: #64748b;
+        }
+
+        .control {
+            width: 100%;
+            border-radius: 9999px;
+            border: 1px solid rgba(148, 163, 184, 0.28);
+            background: rgba(255, 255, 255, 0.92);
+            padding: 0.78rem 1rem;
+            font-size: 0.95rem;
+            color: var(--ink);
+            transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+        }
+
+        .control:focus {
+            outline: none;
+            border-color: rgba(13, 148, 136, 0.6);
+            box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.12);
+            background: #fff;
+        }
+
+        .toolbar-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 9999px;
+            padding: 0.82rem 1.1rem;
+            font-size: 0.95rem;
+            font-weight: 700;
+            transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+        }
+
+        .toolbar-button:hover:not(:disabled) {
+            transform: translateY(-1px);
+        }
+
+        .toolbar-button:disabled {
+            cursor: not-allowed;
+            opacity: 0.45;
+            transform: none;
+        }
+
+        .toolbar-button-secondary {
+            border: 1px solid rgba(148, 163, 184, 0.28);
+            background: rgba(255, 255, 255, 0.84);
+            color: #334155;
+        }
+
+        .toolbar-button-secondary:hover:not(:disabled) {
+            border-color: rgba(148, 163, 184, 0.45);
+            background: rgba(248, 250, 252, 0.96);
+        }
+
+        .toolbar-button-primary {
+            border: 1px solid rgba(13, 148, 136, 0.18);
+            background: linear-gradient(135deg, #0f766e 0%, #0ea5a4 100%);
+            color: #fff;
+            box-shadow: 0 10px 24px rgba(13, 148, 136, 0.18);
+        }
+
+        .toolbar-button-primary:hover:not(:disabled) {
+            background: linear-gradient(135deg, #0b5f59 0%, #0f8f8b 100%);
+        }
+
+        .pill {
+            border-radius: 9999px;
+            background: rgba(15, 118, 110, 0.1);
+            padding: 0.42rem 0.8rem;
+            font-size: 0.7rem;
+            font-weight: 800;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: #0f766e;
+        }
+
+        .thumb-card {
+            overflow: hidden;
+            border-radius: 1.5rem;
+            border: 1px solid rgba(148, 163, 184, 0.18);
+            background: rgba(255, 255, 255, 0.84);
+            box-shadow: 0 14px 34px rgba(15, 23, 42, 0.07);
+            transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+        }
+
+        .thumb-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(148, 163, 184, 0.3);
+            box-shadow: 0 22px 50px rgba(15, 23, 42, 0.11);
+        }
+
+        .thumb-shell {
+            aspect-ratio: 4 / 3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            background: linear-gradient(180deg, rgba(248, 250, 252, 0.96) 0%, rgba(241, 245, 249, 0.78) 100%);
+        }
+
+        .thumb-shell-compact {
+            aspect-ratio: 3 / 2;
+            padding: 0.55rem;
+        }
+
+        .thumb-media {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            transition: transform 0.35s ease;
+        }
+
+        .thumb-card:hover .thumb-media {
+            transform: scale(1.015);
+        }
+
+        .download-badge {
+            opacity: 0;
+            transition: opacity 0.2s ease, transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+        }
+
+        .thumb-card:hover .download-badge {
+            opacity: 1;
+        }
+
+        @media (hover: none) {
+            .download-badge {
+                opacity: 1;
+            }
+        }
+
+        .modal-frame {
+            max-width: min(94vw, 1200px);
+            margin: 0 auto;
+        }
+
         .modal-fade {
-          animation: fadeIn 0.3s ease-out;
+            animation: fadeIn 0.22s ease-out;
+        }
+
+        .chart-shell {
+            height: 430px;
+        }
+
+        @media (max-width: 768px) {
+            .chart-shell {
+                height: 320px;
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
-<div id="app" class="max-w-6xl mx-auto p-4">
-    <!-- Image lightbox modal -->
-    <div v-if="showModal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 modal-fade"
-         @click="showModal = false">
-      <img :src="modalImage" class="max-w-3xl max-h-full rounded shadow-lg" />
-    </div>
-
-    <!-- Title -->
-    <h1 class="text-3xl font-bold mb-4 text-center">📚 Paper Figures Gallery</h1>
-
-    <!-- Category Filter -->
-    <div class="flex items-center mb-4">
-        <label class="mr-2 font-medium">Category:</label>
-        <select v-model="filter" class="border rounded px-2 py-1">
-            <option value="">All</option>
-            <option v-for="c in categories" :key="c" :value="c">{{ c }}</option>
-        </select>
-    </div>
-
-    <!-- Statistics Chart -->
-    <canvas id="statChart" height="80" class="mb-6"></canvas>
-
-    <!-- Thumbnails Grid -->
-    <div class="grid sm:grid-cols-3 md:grid-cols-4 gap-4">
-        <div class="relative group" v-for="img in pagedImages" :key="img.file">
-          <img
-                  :src="img.file"
-                  class="thumb shadow w-full h-48 object-cover"
-                  :alt="img.file"
-                  :title="img.file.split('/').pop()"
-                  @click="openModal(img.file)"
-          />
-          <a
-            :href="img.file"
-            download
-            class="absolute top-2 right-2 bg-white bg-opacity-75 p-1 rounded opacity-0 group-hover:opacity-100 transition-opacity"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2m-4-4l-4 4m0 0l-4-4m4 4V4" />
-            </svg>
-          </a>
+<body class="min-h-screen antialiased">
+<div id="app" class="mx-auto max-w-[1680px] px-4 py-6 sm:px-6 lg:px-8">
+    <div
+        v-if="showModal"
+        class="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 px-4 py-6 modal-fade"
+        @click.self="closeModal"
+    >
+        <div class="modal-frame w-full">
+            <div class="mb-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <div class="text-xs font-semibold uppercase tracking-[0.22em] text-white/55">
+                    Esc closes · ← / → navigate
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <button
+                        type="button"
+                        @click="moveModal(-1)"
+                        :disabled="modalIndex <= 0"
+                        class="rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/20 disabled:cursor-not-allowed disabled:opacity-40"
+                    >
+                        Prev
+                    </button>
+                    <button
+                        type="button"
+                        @click="closeModal"
+                        class="rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/20"
+                    >
+                        Close
+                    </button>
+                    <button
+                        type="button"
+                        @click="moveModal(1)"
+                        :disabled="modalIndex >= filtered.length - 1"
+                        class="rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/20 disabled:cursor-not-allowed disabled:opacity-40"
+                    >
+                        Next
+                    </button>
+                </div>
+            </div>
+            <div class="surface-strong overflow-hidden rounded-[1.75rem] p-3 sm:p-4">
+                <img
+                    :src="modalImage"
+                    :alt="fileName(modalImage)"
+                    class="max-h-[84vh] w-full rounded-[1.25rem] bg-white object-contain"
+                />
+            </div>
         </div>
     </div>
 
-    <!-- Pagination Controls -->
-    <div class="pagination flex justify-center mt-6">
-        <button @click="page--" :disabled="page === 1"
-                class="bg-blue-500 text-white px-3 py-1 rounded disabled:bg-gray-300 disabled:text-gray-600">
-          Prev
-        </button>
-        <span class="px-3 py-1">Page {{ page }} / {{ totalPages }}</span>
-        <div class="flex items-center mx-2">
-          <input type="number"
-                 v-model.number="jumpPage"
-                 :min="1"
-                 :max="totalPages"
-                 class="w-16 px-2 py-1 border rounded mr-1"
-                 placeholder="页码"/>
-          <button @click="goToPage()"
-                  class="bg-green-500 text-white px-2 py-1 rounded">
-            Jump To
-          </button>
-        </div>
-        <button @click="page++" :disabled="page === totalPages"
-                class="bg-blue-500 text-white px-3 py-1 rounded disabled:bg-gray-300 disabled:text-gray-600">
-          Next
-        </button>
-    </div>
+    <main :class="['grid gap-6 lg:items-start', compactMode ? 'lg:grid-cols-[280px_minmax(0,1fr)]' : 'lg:grid-cols-[320px_minmax(0,1fr)]']">
+        <aside :class="['surface rounded-[2rem]', compactMode ? 'p-5 lg:sticky lg:top-4' : 'p-6 sm:p-7 lg:sticky lg:top-6 lg:p-8']">
+            <div class="flex items-start justify-between gap-3">
+                <div>
+                    <div class="kicker">Paper figure reference</div>
+                    <div class="mt-4 flex flex-wrap items-center gap-2">
+                        <span class="pill">Curated gallery</span>
+                        <span class="text-sm text-slate-500">for quick visual ideas</span>
+                    </div>
+                </div>
+                <button
+                    type="button"
+                    @click="toggleCompactMode"
+                    class="rounded-full border border-slate-200/80 bg-white/85 px-3 py-2 text-[11px] font-bold uppercase tracking-[0.18em] text-slate-600 transition hover:border-slate-300 hover:text-slate-900"
+                >
+                    {{ compactMode ? 'Expanded' : 'Compact' }}
+                </button>
+            </div>
+            <h1 class="display-font mt-6 max-w-xl text-3xl font-semibold tracking-tight text-slate-950">
+                Paper Figures Gallery
+            </h1>
+            <p v-if="!compactMode" class="mt-4 text-sm leading-7 text-slate-600">
+                A lightweight reference site for paper figures. Use it to scan charts, tables, and diagrams for composition ideas, layout references, and visual patterns.
+            </p>
+            <p v-else class="mt-4 text-sm leading-7 text-slate-500">
+                Compact mode keeps the sidebar lean and hides the overview chart so more figures stay visible.
+            </p>
+
+            <div class="mt-6">
+                <label class="toolbar-label" for="categoryFilter">Category</label>
+                <select id="categoryFilter" v-model="filter" class="control mt-2">
+                    <option value="">All categories</option>
+                    <option v-for="c in categories" :key="c" :value="c">{{ displayCategory(c) }}</option>
+                </select>
+            </div>
+
+            <div v-if="!compactMode" class="mt-6 rounded-2xl bg-slate-950 px-4 py-4 text-white shadow-lg">
+                <div class="text-xs uppercase tracking-[0.22em] text-white/45">How to use</div>
+                <p class="mt-2 text-sm leading-7 text-white/78">
+                    Filter by category, open a figure full-size, and use Esc or the arrow keys to move around.
+                </p>
+            </div>
+
+            <div v-if="!compactMode" class="mt-6 grid grid-cols-2 gap-3">
+                <div class="rounded-2xl border border-slate-200/80 bg-slate-50/80 px-4 py-3">
+                    <div class="text-[11px] uppercase tracking-[0.2em] text-slate-500">Esc</div>
+                    <div class="mt-1 text-sm font-medium text-slate-900">Close modal</div>
+                </div>
+                <div class="rounded-2xl border border-slate-200/80 bg-slate-50/80 px-4 py-3">
+                    <div class="text-[11px] uppercase tracking-[0.2em] text-slate-500">Arrows</div>
+                    <div class="mt-1 text-sm font-medium text-slate-900">Prev / next</div>
+                </div>
+            </div>
+        </aside>
+
+        <section :class="compactMode ? 'space-y-4' : 'space-y-6'">
+            <section v-if="!compactMode" class="surface-strong rounded-[2rem] p-5 sm:p-6 lg:p-7">
+                <div class="flex items-end justify-between gap-3">
+                    <div>
+                        <div class="kicker text-white/60">Overview</div>
+                        <h2 class="mt-2 text-xl font-semibold tracking-tight text-white">Category balance across the library</h2>
+                    </div>
+                    <div class="text-right text-xs uppercase tracking-[0.2em] text-white/45">Read at a glance</div>
+                </div>
+                <div class="chart-shell mt-5">
+                    <canvas id="statChart" class="h-full w-full"></canvas>
+                </div>
+            </section>
+
+            <section class="surface rounded-[1.75rem] p-4 sm:p-5">
+                <div class="flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between">
+                    <div class="text-sm text-slate-500">
+                        Browse the filtered set with the page controls below.
+                        <span v-if="compactMode" class="ml-2 rounded-full bg-teal-50 px-2 py-1 text-[11px] font-bold uppercase tracking-[0.16em] text-teal-700">Compact mode</span>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-3">
+                        <button
+                            @click="page = Math.max(1, page - 1)"
+                            :disabled="page === 1"
+                            class="toolbar-button toolbar-button-secondary"
+                        >
+                            Prev
+                        </button>
+                        <div class="rounded-2xl border border-slate-200/80 bg-slate-50/80 px-4 py-3 text-sm font-medium text-slate-700">
+                            Page {{ page }} / {{ totalPages }}
+                        </div>
+                        <div class="flex items-center gap-2 rounded-2xl border border-slate-200/80 bg-white/80 px-3 py-2">
+                            <span class="text-xs uppercase tracking-[0.18em] text-slate-500">Jump</span>
+                            <input
+                                type="number"
+                                v-model.number="jumpPage"
+                                :min="1"
+                                :max="totalPages"
+                                class="control w-24 border-none bg-transparent px-0 py-0 shadow-none focus:ring-0"
+                                placeholder="Page"
+                            />
+                            <button @click="goToPage()" class="toolbar-button toolbar-button-primary">Go</button>
+                        </div>
+                        <button
+                            @click="page = Math.min(totalPages, page + 1)"
+                            :disabled="page === totalPages"
+                            class="toolbar-button toolbar-button-secondary"
+                        >
+                            Next
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section :class="galleryGridClass">
+                <article v-for="img in pagedImages" :key="img.file" class="thumb-card" :class="{ 'thumb-card-compact': compactMode }">
+                    <div class="relative">
+                        <button type="button" :class="['thumb-shell block w-full', compactMode ? 'thumb-shell-compact' : '']" @click="openModal(img.file)">
+                            <img
+                                :src="img.file"
+                                :alt="fileName(img.file)"
+                                :title="fileName(img.file)"
+                                loading="lazy"
+                                decoding="async"
+                                class="thumb-media"
+                            />
+                        </button>
+                        <a
+                            :href="img.file"
+                            download
+                            class="download-badge absolute right-4 top-4 inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200/80 bg-white/90 text-slate-700 shadow-sm transition hover:bg-white hover:text-teal-700"
+                            :aria-label="'Download ' + fileName(img.file)"
+                            :title="'Download ' + fileName(img.file)"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div :class="['flex items-center justify-between gap-3 border-t border-slate-200/70', compactMode ? 'px-3 py-2' : 'px-4 py-3']">
+                        <span class="pill">{{ displayCategory(img.category) }}</span>
+                        <span v-if="!compactMode" class="text-xs text-slate-500">Click to inspect</span>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
 </div>
 
 <script>
+    Chart.register(ChartDataLabels);
+
     const PER_PAGE = 24;
 
     Vue.createApp({
@@ -107,121 +427,270 @@
                 images: [],
                 categories: [],
                 filter: '',
+                compactMode: false,
                 page: 1,
                 jumpPage: 1,
                 chart: null,
                 showModal: false,
-                modalImage: ''
+                modalImage: '',
+                modalIndex: -1
             };
         },
         computed: {
             filtered() {
-                const arr = this.filter
-                    ? this.images.filter(i => i.category === this.filter)
+                return this.filter
+                    ? this.images.filter((i) => i.category === this.filter)
                     : this.images;
-                console.log('[computed.filtered] filter=', this.filter, '→', arr.length, 'items');
-                return arr;
+            },
+            visibleImages() {
+                return this.filtered.length;
             },
             totalPages() {
-                const tp = Math.max(1, Math.ceil(this.filtered.length / PER_PAGE));
-                console.log('[computed.totalPages]', tp);
-                return tp;
+                return Math.max(1, Math.ceil(this.visibleImages / PER_PAGE));
+            },
+            galleryGridClass() {
+                return this.compactMode
+                    ? 'grid gap-4 sm:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5'
+                    : 'grid gap-5 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4';
             },
             pagedImages() {
                 const start = (this.page - 1) * PER_PAGE;
-                const pageArr = this.filtered.slice(start, start + PER_PAGE);
-                console.log(`[computed.pagedImages] page=${this.page}, start=${start}`, pageArr.map(i=>i.file));
-                return pageArr;
+                return this.filtered.slice(start, start + PER_PAGE);
             }
         },
         watch: {
-            filter(newVal) {
-                console.log('[watch.filter] changed to', newVal);
-                this.page = 1;
-                this.renderChart();
+            compactMode(newVal) {
+                if (newVal) {
+                    if (this.chart) {
+                        this.chart.destroy();
+                        this.chart = null;
+                    }
+                    return;
+                }
+
+                this.$nextTick(() => {
+                    if (this.images.length) {
+                        this.renderChart();
+                    }
+                });
             },
-            images(newArr) {
-                console.log('[watch.images] images loaded, count=', newArr.length);
-                this.renderChart();
+            filter() {
+                this.page = 1;
+                this.jumpPage = 1;
+                if (this.showModal) {
+                    this.closeModal();
+                }
+            },
+            page(newVal) {
+                this.jumpPage = newVal;
             }
         },
         methods: {
+            displayCategory(category) {
+                const raw = category.split('-', 3)[1] || category;
+                return raw
+                    .replace(/([a-z])([A-Z])/g, '$1 $2')
+                    .replace(/([A-Z])([A-Z][a-z])/g, '$1 $2');
+            },
+            fileName(file) {
+                return file.split('/').pop() || 'Figure preview';
+            },
+            toggleCompactMode() {
+                this.compactMode = !this.compactMode;
+            },
+            setModalIndex(index) {
+                const item = this.filtered[index];
+                if (!item) {
+                    return;
+                }
+
+                this.modalIndex = index;
+                this.modalImage = item.file;
+
+                const nextPage = Math.floor(index / PER_PAGE) + 1;
+                this.page = nextPage;
+                this.jumpPage = nextPage;
+            },
+            moveModal(step) {
+                if (!this.showModal || !this.filtered.length) {
+                    return;
+                }
+
+                const nextIndex = this.modalIndex + step;
+                if (nextIndex < 0 || nextIndex >= this.filtered.length) {
+                    return;
+                }
+
+                this.setModalIndex(nextIndex);
+            },
+            handleKeydown(event) {
+                if (!this.showModal) {
+                    return;
+                }
+
+                if (event.key === 'Escape') {
+                    event.preventDefault();
+                    this.closeModal();
+                    return;
+                }
+
+                if (event.key === 'ArrowLeft') {
+                    event.preventDefault();
+                    this.moveModal(-1);
+                    return;
+                }
+
+                if (event.key === 'ArrowRight') {
+                    event.preventDefault();
+                    this.moveModal(1);
+                }
+            },
             renderChart() {
-                console.log('--- renderChart start ---');
+                if (this.compactMode) {
+                    return;
+                }
+
                 const counts = {};
-                this.filtered.forEach(i => {
-                    counts[i.category] = (counts[i.category] || 0) + 1;
+                this.images.forEach((item) => {
+                    counts[item.category] = (counts[item.category] || 0) + 1;
                 });
-                console.log('[renderChart] raw counts:', counts);
 
-                const rawLabels = Object.keys(counts);
-                const labels = rawLabels.map(l => {
-                  const parts = l.split('-', 2);
-                  return parts.length === 2 ? parts[1] : l;
+                const entries = Object.entries(counts).sort((a, b) => {
+                    if (b[1] !== a[1]) {
+                        return b[1] - a[1];
+                    }
+                    return this.displayCategory(a[0]).localeCompare(this.displayCategory(b[0]));
                 });
-                console.log('[renderChart] labels:', labels);
 
-                const data = {
-                    labels: labels,
-                    datasets: [{
-                        label: 'Count',
-                        data: Object.values(counts),
-                        backgroundColor: '#3b82f6'
-                    }]
-                };
-                console.log('[renderChart] dataset values:', data.datasets[0].data);
+                const labels = entries.map(([category]) => this.displayCategory(category));
+                const values = entries.map(([, count]) => count);
 
                 if (this.chart) {
-                    console.log('[renderChart] destroying previous chart');
                     this.chart.destroy();
                 }
-                console.log('[renderChart] registering plugins');
-                Chart.register(ChartDataLabels);
-                console.log('[renderChart] creating new Chart');
-                this.chart = new Chart(
-                    document.getElementById('statChart'),
-                    { type: 'bar', data, options: {
-                        scales: {
-                          x: {
-                            ticks: { maxRotation: 45, minRotation: 45, autoSkip: false }
-                          }
+
+                const canvas = document.getElementById('statChart');
+                if (!canvas) {
+                    return;
+                }
+
+                this.chart = new Chart(canvas, {
+                    type: 'bar',
+                    data: {
+                        labels,
+                        datasets: [{
+                            label: 'Count',
+                            data: values,
+                            backgroundColor: 'rgba(13, 148, 136, 0.86)',
+                            hoverBackgroundColor: 'rgba(15, 118, 110, 1)',
+                            borderRadius: 12,
+                            borderSkipped: false,
+                            barPercentage: 0.72,
+                            categoryPercentage: 0.82
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'y',
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        interaction: {
+                            mode: 'nearest',
+                            intersect: false
                         },
-                        plugins: { legend: { display: false }, datalabels: { anchor: 'end', align: 'end', color: '#000', font: { weight: 'bold' } } }
-                    } }
-                );
-                console.log('--- renderChart end ---');
+                        scales: {
+                            x: {
+                                beginAtZero: true,
+                                grid: {
+                                    color: 'rgba(148, 163, 184, 0.18)'
+                                },
+                                ticks: {
+                                    color: '#64748b',
+                                    precision: 0
+                                }
+                            },
+                            y: {
+                                grid: {
+                                    display: false
+                                },
+                                ticks: {
+                                    color: '#334155',
+                                    font: {
+                                        size: 12,
+                                        weight: '600'
+                                    }
+                                }
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            tooltip: {
+                                backgroundColor: '#0f172a',
+                                padding: 12,
+                                titleColor: '#fff',
+                                bodyColor: '#e2e8f0',
+                                displayColors: false
+                            },
+                            datalabels: {
+                                anchor: 'end',
+                                align: 'right',
+                                color: '#0f172a',
+                                font: {
+                                    weight: '700',
+                                    size: 11
+                                }
+                            }
+                        }
+                    }
+                });
             },
             openModal(src) {
-              console.log('[openModal] src=', src);
-              this.modalImage = src;
-              this.showModal = true;
+                const index = this.filtered.findIndex((item) => item.file === src);
+                this.modalIndex = index >= 0 ? index : 0;
+                const item = this.filtered[this.modalIndex];
+                if (!item) {
+                    this.modalIndex = -1;
+                    return;
+                }
+
+                this.modalImage = item.file;
+                this.showModal = true;
+                document.body.style.overflow = 'hidden';
+            },
+            closeModal() {
+                this.showModal = false;
+                this.modalIndex = -1;
+                document.body.style.overflow = '';
             },
             goToPage() {
-              const p = Math.min(Math.max(1, this.jumpPage), this.totalPages);
-              console.log('[goToPage] jumping to', p);
-              this.page = p;
+                const p = Math.min(Math.max(1, this.jumpPage), this.totalPages);
+                this.page = p;
+                this.jumpPage = p;
             }
         },
-        mounted() {
-            console.log('[mounted] fetching images.json …');
-            axios.get('images.json')
-                .then(res => {
-                    console.log('[mounted] images.json response:', res.status, res.data.length, 'items');
-                    this.images = res.data;
-                    this.categories = [...new Set(this.images.map(i => i.category))].sort();
-                    console.log('[mounted] categories:', this.categories);
-                })
-                .catch(err => {
-                    console.error('[mounted] failed to load images.json:', err);
-                });
+        async mounted() {
+            this.boundKeydown = (event) => this.handleKeydown(event);
+            window.addEventListener('keydown', this.boundKeydown);
+
+            try {
+                const res = await axios.get('images.json');
+                this.images = res.data;
+                this.categories = [...new Set(this.images.map((i) => i.category))].sort();
+                if (!this.compactMode) {
+                    this.renderChart();
+                }
+            } catch (error) {
+                console.error('Failed to load images.json:', error);
+            }
+        },
+        beforeUnmount() {
+            document.body.style.overflow = '';
+            if (this.boundKeydown) {
+                window.removeEventListener('keydown', this.boundKeydown);
+            }
         }
     }).mount('#app');
 </script>
 </body>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;600;700&display=swap" rel="stylesheet">
-<style>
-    body {
-        font-family: 'Merriweather', sans-serif;
-    }
-</style>
 </html>
