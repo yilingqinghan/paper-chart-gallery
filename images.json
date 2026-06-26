@@ -355,6 +355,12 @@
   },
   {
     "category": "01-Table-\u8868\u683c",
+    "file": "01-Table-\u8868\u683c/ICSE2025-1.webp",
+    "width": 585,
+    "height": 723
+  },
+  {
+    "category": "01-Table-\u8868\u683c",
     "file": "01-Table-\u8868\u683c/ICSE23-6.webp",
     "width": 1230,
     "height": 2166
@@ -583,6 +589,12 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICSE2025-18.webp",
+    "width": 568,
+    "height": 888
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2023-23.webp",
     "width": 1660,
     "height": 1012
@@ -628,6 +640,12 @@
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/CGO2025-Qiwu: Exploiting Ciphertext-Level SIMD Parallelism in Homomorphic Encryption Programs6.webp",
     "width": 1198,
     "height": 738
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ISCA2025-36.webp",
+    "width": 794,
+    "height": 282
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
@@ -841,6 +859,12 @@
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ISCA2025-37.webp",
+    "width": 979,
+    "height": 327
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ASE2023-3.webp",
     "width": 984,
     "height": 1574
@@ -892,6 +916,12 @@
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICS2023-1.webp",
     "width": 1150,
     "height": 650
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ISCA2025-22.webp",
+    "width": 967,
+    "height": 325
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
@@ -1030,6 +1060,12 @@
     "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/OSDI2024-10.webp",
     "width": 1140,
     "height": 1148
+  },
+  {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICSE2025-14.webp",
+    "width": 1000,
+    "height": 524
   },
   {
     "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
@@ -1194,6 +1230,12 @@
     "height": 1926
   },
   {
+    "category": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe",
+    "file": "03-Code-\u4ee3\u7801\u7ec4\u5408\u56fe/ICSE2025-10.webp",
+    "width": 515,
+    "height": 456
+  },
+  {
     "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
     "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/EuroSys2025-40.webp",
     "width": 544,
@@ -1210,6 +1252,12 @@
     "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/ICSE24-4.webp",
     "width": 2032,
     "height": 1458
+  },
+  {
+    "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
+    "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/ISCA2025-10.webp",
+    "width": 979,
+    "height": 268
   },
   {
     "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
@@ -1237,6 +1285,12 @@
   },
   {
     "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
+    "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/ISCA2025-31.webp",
+    "width": 478,
+    "height": 178
+  },
+  {
+    "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
     "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/USENIXATC24-11.webp",
     "width": 1010,
     "height": 978
@@ -1252,6 +1306,12 @@
     "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/ICS2025-10.webp",
     "width": 435,
     "height": 203
+  },
+  {
+    "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
+    "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/ISCA2025-1.webp",
+    "width": 481,
+    "height": 276
   },
   {
     "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
@@ -1453,6 +1513,12 @@
   },
   {
     "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
+    "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/ICSE2025-13.webp",
+    "width": 490,
+    "height": 357
+  },
+  {
+    "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
     "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/USENIXATC24-11.webp",
     "width": 1010,
     "height": 978
@@ -1468,6 +1534,12 @@
     "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/ICSE24-9.webp",
     "width": 1086,
     "height": 666
+  },
+  {
+    "category": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe",
+    "file": "04-StackedBarChart-\u5806\u53e0\u67f1\u72b6\u56fe/ISCA2025-13.webp",
+    "width": 472,
+    "height": 367
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -1678,6 +1750,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures8.webp",
     "width": 1134,
     "height": 1364
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-30.webp",
+    "width": 485,
+    "height": 637
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -1897,6 +1975,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-27.webp",
+    "width": 483,
+    "height": 280
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-9.webp",
     "width": 479,
     "height": 381
@@ -1951,6 +2035,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICSE2025-9.webp",
+    "width": 494,
+    "height": 236
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ASE2024-5.webp",
     "width": 1156,
     "height": 860
@@ -1969,6 +2059,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-11.webp",
+    "width": 957,
+    "height": 537
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2024-19.webp",
     "width": 1698,
     "height": 1548
@@ -1984,6 +2080,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/PPoPP2025-28.webp",
     "width": 2316,
     "height": 902
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-6.webp",
+    "width": 466,
+    "height": 280
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -2185,6 +2287,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-20.webp",
+    "width": 478,
+    "height": 340
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/EuroSys2025-32.webp",
     "width": 509,
     "height": 282
@@ -2365,6 +2473,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-16.webp",
+    "width": 383,
+    "height": 224
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ASPLOS20231.webp",
     "width": 1590,
     "height": 1466
@@ -2380,6 +2494,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2023-10.webp",
     "width": 1128,
     "height": 510
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-17.webp",
+    "width": 491,
+    "height": 648
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -2629,6 +2749,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-18.webp",
+    "width": 477,
+    "height": 667
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2025-7.webp",
     "width": 423,
     "height": 276
@@ -2743,6 +2869,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-34.webp",
+    "width": 460,
+    "height": 558
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Enhancing Deployment-Time Predictive Model Robustness for Code Analysis and Optimization5.webp",
     "width": 1614,
     "height": 746
@@ -2779,9 +2911,21 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-14.webp",
+    "width": 976,
+    "height": 625
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ASPLOS20233.webp",
     "width": 1634,
     "height": 648
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-3.webp",
+    "width": 466,
+    "height": 367
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -3013,6 +3157,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-15.webp",
+    "width": 497,
+    "height": 394
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Proteus: Portable Runtime Optimization of GPU Kernel Execution with Just-in-Time Compilation2.webp",
     "width": 2366,
     "height": 962
@@ -3064,6 +3214,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Enhancing Deployment-Time Predictive Model Robustness for Code Analysis and Optimization4.webp",
     "width": 1642,
     "height": 662
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-35.webp",
+    "width": 461,
+    "height": 417
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -3193,6 +3349,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-19.webp",
+    "width": 488,
+    "height": 498
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-VEGA: Automatically Generating Compiler Backends using a Pre-trained Transformer Model3.webp",
     "width": 3404,
     "height": 1800
@@ -3235,6 +3397,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-5.webp",
+    "width": 959,
+    "height": 339
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Enhancing Deployment-Time Predictive Model Robustness for Code Analysis and Optimization5.webp",
     "width": 1614,
     "height": 746
@@ -3274,6 +3442,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICS2025-23.webp",
     "width": 1137,
     "height": 628
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-28.webp",
+    "width": 481,
+    "height": 456
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -3337,9 +3511,21 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICSE2025-15.webp",
+    "width": 564,
+    "height": 407
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/EuroSys2025-15.webp",
     "width": 461,
     "height": 249
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICSE2025-6.webp",
+    "width": 527,
+    "height": 466
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -3373,6 +3559,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICSE2025-17.webp",
+    "width": 565,
+    "height": 459
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2023-38.webp",
     "width": 2774,
     "height": 1076
@@ -3394,6 +3586,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2024-19.webp",
     "width": 1698,
     "height": 1548
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-9.webp",
+    "width": 479,
+    "height": 381
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -3523,6 +3721,18 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-33.webp",
+    "width": 482,
+    "height": 237
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICSE2025-12.webp",
+    "width": 486,
+    "height": 670
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-GoFree: Reducing Garbage Collection via Compiler-Inserted Freeing6.webp",
     "width": 2438,
     "height": 758
@@ -3595,6 +3805,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-8.webp",
+    "width": 495,
+    "height": 374
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2024-40.webp",
     "width": 3040,
     "height": 836
@@ -3655,6 +3871,12 @@
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICSE2025-2.webp",
+    "width": 986,
+    "height": 451
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2024-12.webp",
     "width": 764,
     "height": 355
@@ -3688,6 +3910,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/CGO2025-Parallaft: Runtime-Based CPU Fault Tolerance via Heterogeneous Parallelism4.webp",
     "width": 1244,
     "height": 1286
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ISCA2025-29.webp",
+    "width": 968,
+    "height": 491
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -3766,6 +3994,12 @@
     "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/EuroSys2025-38.webp",
     "width": 551,
     "height": 343
+  },
+  {
+    "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
+    "file": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe/ICSE2025-3.webp",
+    "width": 486,
+    "height": 287
   },
   {
     "category": "05-ArchDiagram-\u8bba\u6587\u67b6\u6784\u56fe",
@@ -3973,6 +4207,12 @@
   },
   {
     "category": "07-AreaChart-\u9762\u79ef\u56fe",
+    "file": "07-AreaChart-\u9762\u79ef\u56fe/ISCA2025-12.webp",
+    "width": 473,
+    "height": 754
+  },
+  {
+    "category": "07-AreaChart-\u9762\u79ef\u56fe",
     "file": "07-AreaChart-\u9762\u79ef\u56fe/CGO2025-VEGA: Automatically Generating Compiler Backends using a Pre-trained Transformer Model1.webp",
     "width": 1666,
     "height": 584
@@ -3991,6 +4231,12 @@
   },
   {
     "category": "07-AreaChart-\u9762\u79ef\u56fe",
+    "file": "07-AreaChart-\u9762\u79ef\u56fe/ISCA2025-25.webp",
+    "width": 478,
+    "height": 338
+  },
+  {
+    "category": "07-AreaChart-\u9762\u79ef\u56fe",
     "file": "07-AreaChart-\u9762\u79ef\u56fe/OSDI2023-11.webp",
     "width": 1130,
     "height": 878
@@ -4000,6 +4246,12 @@
     "file": "07-AreaChart-\u9762\u79ef\u56fe/ICSE23-12.webp",
     "width": 1070,
     "height": 1090
+  },
+  {
+    "category": "08-Heatmap-\u70ed\u529b\u56fe",
+    "file": "08-Heatmap-\u70ed\u529b\u56fe/ISCA2025-7.webp",
+    "width": 468,
+    "height": 648
   },
   {
     "category": "08-Heatmap-\u70ed\u529b\u56fe",
@@ -4483,9 +4735,27 @@
   },
   {
     "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
+    "file": "09-ScatterPlot-\u6563\u70b9\u56fe/ICSE2025-4.webp",
+    "width": 501,
+    "height": 594
+  },
+  {
+    "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
     "file": "09-ScatterPlot-\u6563\u70b9\u56fe/ASE2024-42.webp",
     "width": 1164,
     "height": 1020
+  },
+  {
+    "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
+    "file": "09-ScatterPlot-\u6563\u70b9\u56fe/ICSE2025-16.webp",
+    "width": 1095,
+    "height": 327
+  },
+  {
+    "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
+    "file": "09-ScatterPlot-\u6563\u70b9\u56fe/ICSE2025-5.webp",
+    "width": 491,
+    "height": 605
   },
   {
     "category": "09-ScatterPlot-\u6563\u70b9\u56fe",
@@ -4939,6 +5209,12 @@
   },
   {
     "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
+    "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/ISCA2025-2.webp",
+    "width": 476,
+    "height": 331
+  },
+  {
+    "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
     "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/EuroSys2025-24.webp",
     "width": 552,
     "height": 217
@@ -4948,6 +5224,12 @@
     "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/PPoPP2025-22.webp",
     "width": 1128,
     "height": 546
+  },
+  {
+    "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
+    "file": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173/ICSE2025-7.webp",
+    "width": 501,
+    "height": 518
   },
   {
     "category": "10-GraphTheory-\u56fe\u8bba\u76f8\u5173",
@@ -5152,6 +5434,12 @@
     "file": "11-ChordDiagram-\u5f26\u56fe/ICSA2023-16.webp",
     "width": 910,
     "height": 618
+  },
+  {
+    "category": "11-ChordDiagram-\u5f26\u56fe",
+    "file": "11-ChordDiagram-\u5f26\u56fe/ICSE2025-8.webp",
+    "width": 943,
+    "height": 402
   },
   {
     "category": "11-ChordDiagram-\u5f26\u56fe",
@@ -5647,6 +5935,12 @@
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/ISCA2025-26.webp",
+    "width": 450,
+    "height": 326
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
     "file": "15-BarChart-\u67f1\u72b6\u56fe/OSDI2024-14.webp",
     "width": 2376,
     "height": 842
@@ -6052,6 +6346,12 @@
     "file": "15-BarChart-\u67f1\u72b6\u56fe/OSDI2023-2.webp",
     "width": 2372,
     "height": 1148
+  },
+  {
+    "category": "15-BarChart-\u67f1\u72b6\u56fe",
+    "file": "15-BarChart-\u67f1\u72b6\u56fe/ICSE2025-11.webp",
+    "width": 476,
+    "height": 281
   },
   {
     "category": "15-BarChart-\u67f1\u72b6\u56fe",
@@ -6532,6 +6832,18 @@
     "file": "16-Combination-\u7ec4\u5408\u56fe/CGO2023-28.webp",
     "width": 1624,
     "height": 1730
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/ISCA2025-24.webp",
+    "width": 479,
+    "height": 299
+  },
+  {
+    "category": "16-Combination-\u7ec4\u5408\u56fe",
+    "file": "16-Combination-\u7ec4\u5408\u56fe/ISCA2025-32.webp",
+    "width": 480,
+    "height": 406
   },
   {
     "category": "16-Combination-\u7ec4\u5408\u56fe",
@@ -7422,6 +7734,12 @@
     "height": 433
   },
   {
+    "category": "19-Sequence-\u65f6\u5e8f\u56fe",
+    "file": "19-Sequence-\u65f6\u5e8f\u56fe/ISCA2025-4.webp",
+    "width": 960,
+    "height": 485
+  },
+  {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/USENIXATC24-2.webp",
     "width": 996,
@@ -8068,6 +8386,12 @@
     "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/ICS2023-17.webp",
     "width": 1136,
     "height": 1112
+  },
+  {
+    "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
+    "file": "20-Matrix-\u77e9\u9635\u76f8\u5173/ISCA2025-23.webp",
+    "width": 482,
+    "height": 291
   },
   {
     "category": "20-Matrix-\u77e9\u9635\u76f8\u5173",
